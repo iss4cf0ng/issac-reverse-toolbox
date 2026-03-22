@@ -31,8 +31,8 @@ This repository also contains **analyzed or unpacked samples** for educational a
 ## Related Links
 - Analysis of RATs
   - [Inside Different Generations of RATs](https://iss4cf0ng.github.io/InsideDifferentGenerationsOfRATs/)
-  - [The njRAT Family](https://iss4cf0ng.github.io/TheNjRatFamily/)
-  - [The Gh0st Family](https://iss4cf0ng.github.io/InsideDifferentGenerationsOfRATs/TheGh0stFamily/)
+    - [The njRAT Family](https://iss4cf0ng.github.io/TheNjRatFamily/)
+    - [The Gh0st Family](https://iss4cf0ng.github.io/TheGh0stFamily/)
 
 <p align="center">
     <img src="https://iss4cf0ng.github.io/images/meme/rio_pc.jpg" width=300/>
