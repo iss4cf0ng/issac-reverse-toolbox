@@ -1,0 +1,21 @@
+<!--
+This file is part of the pestudio solution (www.winitor.com).
+Any usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that this file will be modified when running pestudio.
+-->
+<xml version="1.0" encoding="utf-8" md5="">
+  <mitre url="https://attack.mitre.org">
+
+    <tactics url="tactics">
+      <!-- based on https://attack.mitre.org/tactics/ -->
+      <ta id="0007" de="The adversary is trying to figure out your environment.">Discovery</ta>
+    </tactics>
+
+    <techniques url="techniques">
+      <!-- based on https://attack.mitre.org/techniques/ -->
+      <ti id="1057" ta="0007" flag="1" level="2" enable="1">Process Discovery</ti>
+    </techniques>
+  </mitre>
+</xml>
+

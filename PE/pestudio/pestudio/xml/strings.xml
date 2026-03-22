@@ -1,0 +1,1437 @@
+﻿<!--
+This file is part of the pestudio solution (www.winitor.com).
+Any usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that this file will be modified when running pestudio.
+-->
+<xml version="1.0" encoding="utf-8" md5="">
+
+  <settings>
+    <setting>
+      <minimum-size comment="the minimum character size of a string">4</minimum-size>
+      <case-sensitive comment="">0</case-sensitive>
+      <substring comment="">0</substring>
+    </setting>
+  </settings>
+
+  <!-- SID (Security Identifiers) -->
+  <sids gp="30">
+    <sid name="">S-1-0</sid>
+    <sid name="">S-1-0-0</sid>
+    <sid name="">S-1-1</sid>
+    <sid name="">S-1-1-0</sid>
+    <sid name="">S-1-2</sid>
+    <sid name="">S-1-2-0</sid>
+    <sid name="">S-1-2-1</sid>
+    <sid name="">S-1-3</sid>
+    <sid name="">S-1-3-0</sid>
+    <sid name="">S-1-3-1</sid>
+    <sid name="">S-1-3-2</sid>
+    <sid name="">S-1-3-3</sid>
+    <sid name="">S-1-3-4</sid>
+    <sid name="">S-1-4</sid>
+    <sid name="">S-1-5</sid>
+    <sid name="">S-1-5-1</sid>
+    <sid name="">S-1-5-2</sid>
+    <sid name="">S-1-5-3</sid>
+    <sid name="">S-1-5-4</sid>
+    <sid name="">S-1-5-6</sid>
+    <sid name="">S-1-5-7</sid>
+    <sid name="">S-1-5-8</sid>
+    <sid name="">S-1-5-9</sid>
+    <sid name="">S-1-5-10</sid>
+    <sid name="">S-1-5-11</sid>
+    <sid name="">S-1-5-114</sid>
+    <sid name="">S-1-5-12</sid>
+    <sid name="">S-1-5-13</sid>
+    <sid name="">S-1-5-14</sid>
+    <sid name="">S-1-5-15</sid>
+    <sid name="">S-1-5-17</sid>
+    <sid name="">S-1-5-18</sid>
+    <sid name="">S-1-5-19</sid>
+    <sid name="">S-1-5-20</sid>
+    <sid name="">S-1-5-21</sid>
+    <sid name="">S-1-5-32-544</sid>
+    <sid name="">S-1-5-32-545</sid>
+    <sid name="">S-1-5-32-546</sid>
+    <sid name="">S-1-5-32-547</sid>
+    <sid name="">S-1-5-32-548</sid>
+    <sid name="">S-1-5-32-549</sid>
+    <sid name="">S-1-5-32-550</sid>
+    <sid name="">S-1-5-32-551</sid>
+    <sid name="">S-1-5-32-552</sid>
+    <sid name="">S-1-5-64-10</sid>
+    <sid name="">S-1-5-64-14</sid>
+    <sid name="">S-1-5-64-21</sid>
+    <sid name="">S-1-5-80</sid>
+    <sid name="">S-1-5-83-0</sid>
+    <sid name="">S-1-16-0</sid>
+    <sid name="Low Mandatory Level">S-1-16-4096</sid>
+    <sid name="">S-1-16-8192</sid>
+    <sid name="">S-1-16-8448</sid>
+    <sid name="">S-1-16-12288</sid>
+    <sid name="">S-1-16-16384</sid>
+    <sid name="">S-1-16-20480</sid>
+    <sid name="">S-1-16-28672</sid>
+    <sid name="">S-1-5-32-554</sid>
+    <sid name="">S-1-5-32-555</sid>
+    <sid name="">S-1-5-32-556</sid>
+    <sid name="">S-1-5-32-557</sid>
+    <sid name="">S-1-5-32-558</sid>
+    <sid name="">S-1-5-32-559</sid>
+    <sid name="">S-1-5-32-560</sid>
+    <sid name="">S-1-5-32-561</sid>
+    <sid name="">S-1-5-32-562</sid>
+    <sid name="">S-1-5-32-569</sid>
+    <sid name="">S-1-5-32-573</sid>
+    <sid name="">S-1-5-32-574</sid>
+    <sid name="">S-1-5-32-575</sid>
+    <sid name="">S-1-5-32-576</sid>
+    <sid name="">S-1-5-32-577</sid>
+    <sid name="">S-1-5-32-578</sid>
+    <sid name="">S-1-5-32-579</sid>
+    <sid name="">S-1-5-32-580</sid>
+  </sids>
+  
+  <privs gp="30" ti="1134">
+    <priv gp="30" ti="1134">SeAssignPrimaryTokenPrivilege</priv>
+    <priv gp="30" ti="1134">SeAuditPrivilege</priv>
+    <priv gp="30" ti="1134">SeBackupPrivilege</priv>
+    <priv gp="30" ti="1134">SeChangeNotifyPrivilege</priv>
+    <priv gp="30" ti="1134">SeCreateGlobalPrivilege</priv>
+    <priv gp="30" ti="1134">SeCreatePagefilePrivilege</priv>
+    <priv gp="30" ti="1134">SeCreatePermanentPrivilege</priv>
+    <priv gp="30" ti="1134">SeCreateSymbolicLinkPrivilege</priv>
+    <priv gp="30" ti="1134">SeCreateTokenPrivilege</priv>
+    <priv gp="30" ti="1134">SeDebugPrivilege</priv>
+    <priv gp="30" ti="1134">SeSinglePrivilegeCheck</priv>
+    <priv gp="30" ti="1134">SeEnableDelegationPrivilege</priv>
+    <priv gp="30" ti="1134">SeImpersonatePrivilege</priv>
+    <priv gp="30" ti="1134">SeIncreaseBasePriorityPrivilege</priv>
+    <priv gp="30" ti="1134">SeIncreaseQuotaPrivilege</priv>
+    <priv gp="30" ti="1134">SeIncreaseWorkingSetPrivilege</priv>
+    <priv gp="30" ti="1134">SeLoadDriverPrivilege</priv>
+    <priv gp="30" ti="1134">SeLockMemoryPrivilege</priv>
+    <priv gp="30" ti="1134">SeMachineAccountPrivilege</priv>
+    <priv gp="30" ti="1134">SeManageVolumePrivilege</priv>
+    <priv gp="30" ti="1134">SeProfileSingleProcessPrivilege</priv>
+    <priv gp="30" ti="1134">SeRelabelPrivilege</priv>
+    <priv gp="30" ti="1134">SeRemoteShutdownPrivilege</priv>
+    <priv gp="30" ti="1134">SeRestorePrivilege</priv>
+    <priv gp="30" ti="1134">SeSecurityPrivilege</priv>
+    <priv gp="30" ti="1134">SeShutdownPrivilege</priv>
+    <priv gp="30" ti="1134">SeSyncAgentPrivilege</priv>
+    <priv gp="30" ti="1134">SeSystemEnvironmentPrivilege</priv>
+    <priv gp="30" ti="1134">SeSystemProfilePrivilege</priv>
+    <priv gp="30" ti="1134">SeSystemtimePrivilege</priv>
+    <priv gp="30" ti="1134">SeTakeOwnershipPrivilege</priv>
+    <priv gp="30" ti="1134">SeTcbPrivilege</priv>
+    <priv gp="30" ti="1134">SeTimeZonePrivilege</priv>
+    <priv gp="30" ti="1134">SeTrustedCredManAccessPrivilege</priv>
+    <priv gp="30" ti="1134">SeUndockPrivilege</priv>
+    <priv gp="30" ti="1134">SeUnsolicitedInputPrivilege</priv>
+  </privs>
+
+  <agents hint="06">
+    <agent>Mozilla/</agent>
+    <agent>Opera/</agent>
+    <agent>User-Agent</agent>
+  </agents>
+
+  <exts hint="17">
+    <ext>3fr</ext>
+    <ext>123</ext>
+    <ext>386</ext>
+    <ext>666</ext>
+    <ext>3dm</ext>
+    <ext>3ds</ext>
+    <ext>7z</ext>
+    <ext>Application</ext>
+    <ext>accda</ext>
+    <ext>ascx</ext>
+    <ext>asmx</ext>
+    <ext>accdb</ext>
+    <ext>au3</ext>
+    <ext>a3x</ext>
+    <ext>acf</ext>
+    <ext>ade</ext>
+    <ext>adn</ext>
+    <ext>adp</ext>
+    <ext>ani</ext>
+    <ext>arc</ext>
+    <ext>api</ext>
+    <ext>amr</ext>
+    <ext>arcs</ext>
+    <ext>apk</ext>
+    <ext>arch00</ext>
+    <ext>arw</ext>
+    <ext>asset</ext>
+    <ext>arj</ext>
+    <ext>asf</ext>
+    <ext>asp</ext>
+    <ext>asm</ext>
+    <ext>asx</ext>
+    <ext>avi</ext>
+    <ext>atf</ext>
+    <ext>app</ext>
+    <ext>aspx</ext>
+    <ext>admin</ext>
+    <ext>acm</ext>
+    <ext>alz</ext>
+    <ext>ax</ext>
+    <ext>b64</ext>
+    <ext>bc7</ext>
+    <ext>bc6</ext>
+    <ext>bay</ext>
+    <ext>big</ext>
+    <ext>bit</ext>
+    <ext>bik</ext>
+    <ext>bkf</ext>
+    <ext>bkp</ext>
+    <ext>blob</ext>
+    <ext>bsa</ext>
+    <ext>bat</ext>
+    <ext>bot</ext>
+    <ext>bak</ext>
+    <ext>bhx</ext>
+    <ext>bin</ext>
+    <ext>bmp</ext>
+    <ext>binPK</ext>
+    <ext>bar</ext>
+    <ext>bas</ext>
+    <ext>bsd</ext>
+    <ext>backup</ext>
+    <ext>bk</ext>
+    <ext>cdw</ext>
+    <ext>csr</ext>
+    <ext>c</ext>
+    <ext>cx</ext>
+    <ext>cc</ext>
+    <ext>cas</ext>
+    <ext>cat</ext>
+    <ext>cdr</ext>
+    <ext>cer</ext>
+    <ext>cfr</ext>
+    <ext>cr2</ext>
+    <ext>crt</ext>
+    <ext>crw</ext>
+    <ext>css</ext>
+    <ext>csv</ext>
+    <ext>c</ext>
+    <ext>cab</ext>
+    <ext>cpio</ext>
+    <ext>cap</ext>
+    <ext>cbl</ext>
+    <ext>cbm</ext>
+    <ext>cert</ext>
+    <ext>cbo</ext>
+    <ext>css</ext>
+    <ext>cache</ext>
+    <ext>cfg</ext>
+    <ext>cfm</ext>
+    <ext>cpp</ext>
+    <ext>cxx</ext>
+    <ext>cer</ext>
+    <ext>ceo</ext>
+    <ext>ce0</ext>
+    <ext>chm</ext>
+    <ext>cgi</ext>
+    <ext>classPK</ext>
+    <ext>cmd</ext>
+    <ext>cnt</ext>
+    <ext>conf</ext>
+    <ext>cs</ext>
+    <ext>cpl</ext>
+    <ext>crl</ext>
+    <ext>ctl</ext>
+    <ext>cur</ext>
+    <ext>class</ext>
+    <ext>cbtl</ext>
+    <ext>cid</ext>
+    <ext>CIN</ext>
+    <ext>cxm</ext>
+    <ext>config</ext>
+    <ext>dat</ext>
+    <ext>dbg</ext>
+    <ext>dsm</ext>
+    <ext>dun</ext>
+    <ext>dk</ext>
+    <ext>db</ext>
+    <ext>docb</ext>
+    <ext>docx</ext>
+    <ext>dotm</ext>
+    <ext>dotx</ext>
+    <ext>docm</ext>
+    <ext>drv</ext>
+    <ext>doc</ext>
+    <ext>docc</ext>
+    <ext>docpk</ext>
+    <ext>dot</ext>
+    <ext>d3dbsp</ext>
+    <ext>das</ext>
+    <ext>dazip</ext>
+    <ext>db0</ext>
+    <ext>dbfv</ext>
+    <ext>dcr</ext>
+    <ext>dic</ext>
+    <ext>dir</ext>
+    <ext>dif</ext>
+    <ext>der</ext>
+    <ext>dex</ext>
+    <ext>desc</ext>
+    <ext>dmp</ext>
+    <ext>dmg</ext>
+    <ext>dng</ext>
+    <ext>dwg</ext>
+    <ext>dxg</ext>
+    <ext>dba</ext>
+    <ext>dbf</ext>
+    <ext>dsp</ext>
+    <ext>dsw</ext>
+    <ext>dtd</ext>
+    <ext>detour</ext>
+    <ext>detourc</ext>
+    <ext>detourd</ext>
+    <ext>download</ext>
+    <ext>db2</ext>
+    <ext>dll</ext>
+    <ext>ecc</ext>
+    <ext>efi</ext>
+    <ext>edt</ext>
+    <ext>epk</ext>
+    <ext>eps</ext>
+    <ext>erf</ext>
+    <ext>esm</ext>
+    <ext>en</ext>
+    <ext>exd</ext>
+    <ext>exe</ext>
+    <ext>ex_</ext>
+    <ext>_exe</ext>
+    <ext>email</ext>
+    <ext>emf</ext>
+    <ext>eot</ext>
+    <ext>eddx</ext>
+    <ext>edoc</ext>
+    <ext>emlx</ext>
+    <ext>epub</ext>
+    <ext>exePK</ext>
+    <ext>elb</ext>
+    <ext>epl</ext>
+    <ext>eml</ext>
+    <ext>evt</ext>
+    <ext>fini</ext>
+    <ext>flv</ext>
+    <ext>forge</ext>
+    <ext>fos</ext>
+    <ext>fpk</ext>
+    <ext>fsh</ext>
+    <ext>fpl</ext>
+    <ext>flg</ext>
+    <ext>far</ext>
+    <ext>fav</ext>
+    <ext>ftp</ext>
+    <ext>fla</ext>
+    <ext>fon</ext>
+    <ext>fra</ext>
+    <ext>frm</ext>
+    <ext>go</ext>
+    <ext>gdb</ext>
+    <ext>gho</ext>
+    <ext>gzip</ext>
+    <ext>gz</ext>
+    <ext>gif</ext>
+    <ext>gadget</ext>
+    <ext>gcode</ext>
+    <ext>gul</ext>
+    <ext>hlp</ext>
+    <ext>hpj</ext>
+    <ext>hta</ext>
+    <ext>hhp</ext>
+    <ext>hkdb</ext>
+    <ext>hkx</ext>
+    <ext>hplg</ext>
+    <ext>hvpl</ext>
+    <ext>h</ext>
+    <ext>hpp</ext>
+    <ext>hxx</ext>
+    <ext>htm</ext>
+    <ext>html</ext>
+    <ext>htt</ext>
+    <ext>http</ext>
+    <ext>hqx</ext>
+    <ext>ht</ext>
+    <ext>htapk</ext>
+    <ext>href</ext>
+    <ext>hxi</ext>
+    <ext>hxs</ext>
+    <ext>hna</ext>
+    <ext>hwp</ext>
+    <ext>ibank</ext>
+    <ext>icxs</ext>
+    <ext>indd</ext>
+    <ext>itdb</ext>
+    <ext>itl</ext>
+    <ext>itm</ext>
+    <ext>iwd</ext>
+    <ext>iwi</ext>
+    <ext>ini</ext>
+    <ext>inl</ext>
+    <ext>iniPK</ext>
+    <ext>inc</ext>
+    <ext>ico</ext>
+    <ext>idc</ext>
+    <ext>info</ext>
+    <ext>inf</ext>
+    <ext>ins</ext>
+    <ext>iso</ext>
+    <ext>isp</ext>
+    <ext>it</ext>
+    <ext>its</ext>
+    <ext>idml</ext>
+    <ext>indd</ext>
+    <ext>identifier</ext>
+    <ext>jar</ext>
+    <ext>jav</ext>
+    <ext>java</ext>
+    <ext>jcr</ext>
+    <ext>jpeg</ext>
+    <ext>jpegPK</ext>
+    <ext>js</ext>
+    <ext>jsp</ext>
+    <ext>jpe</ext>
+    <ext>jpg</ext>
+    <ext>jse</ext>
+    <ext>jfif</ext>
+    <ext>jspa</ext>
+    <ext>jspx</ext>
+    <ext>jps</ext>
+    <ext>kdb</ext>
+    <ext>kdc</ext>
+    <ext>key</ext>
+    <ext>kwp</ext>
+    <ext>locky</ext>
+    <ext>layout</ext>
+    <ext>lbf</ext>
+    <ext>ldf</ext>
+    <ext>litemod</ext>
+    <ext>lrf</ext>
+    <ext>lnk</ext>
+    <ext>ltx</ext>
+    <ext>lvl</ext>
+    <ext>lzh</ext>
+    <ext>lnk</ext>
+    <ext>lsf</ext>
+    <ext>lsx</ext>
+    <ext>log</ext>
+    <ext>lzma</ext>
+    <ext>locked</ext>
+    <ext>max</ext>
+    <ext>md</ext>
+    <ext>mad</ext>
+    <ext>maf</ext>
+    <ext>mail</ext>
+    <ext>maq</ext>
+    <ext>mar</ext>
+    <ext>mas</ext>
+    <ext>mat</ext>
+    <ext>mav</ext>
+    <ext>maw</ext>
+    <ext>mam</ext>
+    <ext>mag</ext>
+    <ext>m3u</ext>
+    <ext>m4a</ext>
+    <ext>map</ext>
+    <ext>mcr</ext>
+    <ext>mcgame</ext>
+    <ext>mcmeta</ext>
+    <ext>msi</ext>
+    <ext>msp</ext>
+    <ext>mst</ext>
+    <ext>msu</ext>
+    <ext>msc</ext>
+    <ext>mda</ext>
+    <ext>mde</ext>
+    <ext>mdz</ext>
+    <ext>mht</ext>
+    <ext>mdb</ext>
+    <ext>mdn</ext>
+    <ext>mdt</ext>
+    <ext>mdbackup</ext>
+    <ext>manifest</ext>
+    <ext>mddata</ext>
+    <ext>mdf</ext>
+    <ext>mef</ext>
+    <ext>mp4</ext>
+    <ext>mid</ext>
+    <ext>mov</ext>
+    <ext>msg</ext>
+    <ext>mspx</ext>
+    <ext>msh</ext>
+    <ext>midi</ext>
+    <ext>mim</ext>
+    <ext>mmf</ext>
+    <ext>menu</ext>
+    <ext>mlx</ext>
+    <ext>mpqge</ext>
+    <ext>mrwref</ext>
+    <ext>mp3</ext>
+    <ext>mpg</ext>
+    <ext>mpeg</ext>
+    <ext>mp3PK</ext>
+    <ext>mbox</ext>
+    <ext>mdbackup</ext>
+    <ext>mddata</ext>
+    <ext>mdinfo</ext>
+    <ext>m4v</ext>
+    <ext>mkv</ext>
+    <ext>mui</ext>
+    <ext>memdump</ext>
+    <ext>m4u</ext>
+    <ext>myi</ext>
+    <ext>myd</ext>
+    <ext>nak</ext>
+    <ext>net</ext>
+    <ext>nch</ext>
+    <ext>nim</ext>
+    <ext>nrg</ext>
+    <ext>nls</ext>
+    <ext>ncb</ext>
+    <ext>ncf</ext>
+    <ext>nrw</ext>
+    <ext>ntl</ext>
+    <ext>nws</ext>
+    <ext>note</ext>
+    <ext>nt</ext>
+    <ext>ogg</ext>
+    <ext>oca</ext>
+    <ext>ocx</ext>
+    <ext>oft</ext>
+    <ext>oss</ext>
+    <ext>olb</ext>
+    <ext>org</ext>
+    <ext>ots</ext>
+    <ext>ost</ext>
+    <ext>osd</ext>
+    <ext>odb</ext>
+    <ext>odc</ext>
+    <ext>odm</ext>
+    <ext>odp</ext>
+    <ext>ods</ext>
+    <ext>old</ext>
+    <ext>odt</ext>
+    <ext>orf</ext>
+    <ext>ovl</ext>
+    <ext>opt</ext>
+    <ext>odx</ext>
+    <ext>paf</ext>
+    <ext>paf</ext>
+    <ext>pct</ext>
+    <ext>pkxm</ext>
+    <ext>pcap</ext>
+    <ext>pack</ext>
+    <ext>pyz</ext>
+    <ext>potx</ext>
+    <ext>potm</ext>
+    <ext>pps</ext>
+    <ext>pdb</ext>
+    <ext>php</ext>
+    <ext>phtml</ext>
+    <ext>pas</ext>
+    <ext>pdd</ext>
+    <ext>pdf</ext>
+    <ext>pic</ext>
+    <ext>pyd</ext>
+    <ext>pkg</ext>
+    <ext>pyr</ext>
+    <ext>pyt</ext>
+    <ext>pyz</ext>
+    <ext>pef</ext>
+    <ext>pem</ext>
+    <ext>pfx</ext>
+    <ext>pkpass</ext>
+    <ext>png</ext>
+    <ext>ppa</ext>
+    <ext>ppt</ext>
+    <ext>prf</ext>
+    <ext>pptm</ext>
+    <ext>pptx</ext>
+    <ext>psd</ext>
+    <ext>ps1</ext>
+    <ext>psk</ext>
+    <ext>pf</ext>
+    <ext>py</ext>
+    <ext>pypk</ext>
+    <ext>pst</ext>
+    <ext>pwl</ext>
+    <ext>ptx</ext>
+    <ext>pif</ext>
+    <ext>pl</ext>
+    <ext>pls</ext>
+    <ext>pax</ext>
+    <ext>pad</ext>
+    <ext>plist</ext>
+    <ext>pub</ext>
+    <ext>phtm</ext>
+    <ext>phps</ext>
+    <ext>phpx</ext>
+    <ext>phpxx</ext>
+    <ext>ppdf</ext>
+    <ext>ppsm</ext>
+    <ext>ppsx</ext>
+    <ext>plist_bak</ext>
+    <ext>Permissions</ext>
+    <ext>pcmp</ext>
+    <ext>pcmi</ext>
+    <ext>pcmt</ext>
+    <ext>ppk</ext>
+    <ext>prj</ext>
+    <ext>plugin</ext>
+    <ext>pck</ext>
+    <ext>pkb</ext>
+    <ext>pks</ext>
+    <ext>plb</ext>
+    <ext>ps</ext>
+    <ext>psb</ext>
+    <ext>qtx</ext>
+    <ext>ro</ext>
+    <ext>rodata</ext>
+    <ext>rar</ext>
+    <ext>rat</ext>
+    <ext>reg</ext>
+    <ext>rels</ext>
+    <ext>rtf</ext>
+    <ext>r3d</ext>
+    <ext>raf</ext>
+    <ext>rar</ext>
+    <ext>ru</ext>
+    <ext>raw</ext>
+    <ext>re4</ext>
+    <ext>rtf</ext>
+    <ext>rdp</ext>
+    <ext>rdf</ext>
+    <ext>rjs</ext>
+    <ext>relspk</ext>
+    <ext>rsapk</ext>
+    <ext>rtfpk</ext>
+    <ext>rdo</ext>
+    <ext>sqlite</ext>
+    <ext>sch</ext>
+    <ext>sdb</ext>
+    <ext>stc</ext>
+    <ext>sti</ext>
+    <ext>stw</ext>
+    <ext>sxc</ext>
+    <ext>sxd</ext>
+    <ext>sxi</ext>
+    <ext>sxm</ext>
+    <ext>sxw</ext>
+    <ext>sdb</ext>
+    <ext>scf</ext>
+    <ext>scp</ext>
+    <ext>sfx</ext>
+    <ext>sfpk</ext>
+    <ext>sql</ext>
+    <ext>scr</ext>
+    <ext>sct</ext>
+    <ext>shb</ext>
+    <ext>so</ext>
+    <ext>shs</ext>
+    <ext>sit</ext>
+    <ext>slk</ext>
+    <ext>smi</ext>
+    <ext>smil</ext>
+    <ext>stl</ext>
+    <ext>stm</ext>
+    <ext>spl</ext>
+    <ext>sys</ext>
+    <ext>swf</ext>
+    <ext>sav</ext>
+    <ext>sc2save</ext>
+    <ext>sid</ext>
+    <ext>sidd</ext>
+    <ext>sidn</ext>
+    <ext>snx</ext>
+    <ext>sr2</ext>
+    <ext>srfv</ext>
+    <ext>srw</ext>
+    <ext>swift</ext>
+    <ext>sum</ext>
+    <ext>svg</ext>
+    <ext>syncdb</ext>
+    <ext>srf</ext>
+    <ext>sys</ext>
+    <ext>ssh</ext>
+    <ext>sldm</ext>
+    <ext>sldx</ext>
+    <ext>sdf</ext>
+    <ext>scl</ext>
+    <ext>scd</ext>
+    <ext>sig</ext>
+    <ext>sln</ext>
+    <ext>shell</ext>
+    <ext>t13</ext>
+    <ext>tet</ext>
+    <ext>tar</ext>
+    <ext>tz</ext>
+    <ext>taz</ext>
+    <ext>tgz</ext>
+    <ext>tif</ext>
+    <ext>tiff</ext>
+    <ext>tga</ext>
+    <ext>tmp</ext>
+    <ext>temp</ext>
+    <ext>txt</ext>
+    <ext>tlb</ext>
+    <ext>txt3</ext>
+    <ext>t12</ext>
+    <ext>t13v</ext>
+    <ext>tax</ext>
+    <ext>tor</ext>
+    <ext>torrent</ext>
+    <ext>thm</ext>
+    <ext>ttf</ext>
+    <ext>unity3d</ext>
+    <ext>upk</ext>
+    <ext>url</ext>
+    <ext>ult</ext>
+    <ext>vb</ext>
+    <ext>vbe</ext>
+    <ext>vbs</ext>
+    <ext>vbp</ext>
+    <ext>vdf</ext>
+    <ext>vfs0</ext>
+    <ext>vpk</ext>
+    <ext>vaf</ext>
+    <ext>vpp_pcv</ext>
+    <ext>vtf</ext>
+    <ext>vcf</ext>
+    <ext>vbspk</ext>
+    <ext>vxd</ext>
+    <ext>vsd</ext>
+    <ext>vsdx</ext>
+    <ext>vhdx</ext>
+    <ext>vhdx</ext>
+    <ext>vmdk</ext>
+    <ext>vfs4</ext>
+    <ext>vpp_pc</ext>
+    <ext>vhd</ext>
+    <ext>vdi</ext>
+    <ext>vbox</ext>
+    <ext>vob</ext>
+    <ext>vre</ext>
+    <ext>wav</ext>
+    <ext>wab</ext>
+    <ext>wap</ext>
+    <ext>wbk</ext>
+    <ext>wiz</ext>
+    <ext>wjf</ext>
+    <ext>ws</ext>
+    <ext>w3x</ext>
+    <ext>wb2</ext>
+    <ext>wma</ext>
+    <ext>wmf</ext>
+    <ext>wmo</ext>
+    <ext>wmv</ext>
+    <ext>wotreplay</ext>
+    <ext>wpd</ext>
+    <ext>wps</ext>
+    <ext>wsc</ext>
+    <ext>wsf</ext>
+    <ext>wsh</ext>
+    <ext>webm</ext>
+    <ext>wks</ext>
+    <ext>wk1</ext>
+    <ext>wallet</ext>
+    <ext>wri</ext>
+    <ext>wpx</ext>
+    <ext>x3f</ext>
+    <ext>xaml</ext>
+    <ext>xla</ext>
+    <ext>xsd</ext>
+    <ext>xls</ext>
+    <ext>xsl</ext>
+    <ext>xlb</ext>
+    <ext>xlsm</ext>
+    <ext>xlsm</ext>
+    <ext>xlsx</ext>
+    <ext>xlt</ext>
+    <ext>xlv</ext>
+    <ext>xml</ext>
+    <ext>xmlPK</ext>
+    <ext>xmp</ext>
+    <ext>xll</ext>
+    <ext>xlsm</ext>
+    <ext>xlsx</ext>
+    <ext>xlc</ext>
+    <ext>xld</ext>
+    <ext>xlk</ext>
+    <ext>xor</ext>
+    <ext>xlw</ext>
+    <ext>xltx</ext>
+    <ext>xltm</ext>
+    <ext>xlsb</ext>
+    <ext>xlm</ext>
+    <ext>xxx</ext>
+    <ext>xfp</ext>
+    <ext>xsd</ext>
+    <ext>xyz</ext>
+    <ext>xbtl</ext>
+    <ext>x509crl</ext>
+    <ext>x509cert</ext>
+    <ext>xrf</ext>
+    <ext>xps</ext>
+    <ext>xsf</ext>
+    <ext>z</ext>
+    <ext>zip</ext>
+    <ext>zipx</ext>
+    <ext>ztmp</ext>
+    <ext>zoo</ext>
+  </exts>
+
+  <!-- Registry -->
+  <regs hint="01">
+    <reg gp="01">RegistryKey</reg>
+    <reg gp="01">ShellServiceObjectDelayLoad</reg>
+    <reg gp="01">CurrentVersion</reg>
+    <reg gp="01">Windows\CurrentVersion</reg>
+    <reg gp="01">Windows NT\CurrentVersion</reg>
+    <reg gp="01">\Software\Microsoft\Windows\CurrentVersion</reg>
+    <reg gp="01">Software\Microsoft\Windows\CurrentVersion</reg>
+    <reg gp="01">Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall</reg>
+    <reg ti="1060">SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce</reg>
+    <reg ti="1060">SOFTWARE\Microsoft\Windows\CurrentVersion\Run</reg>
+    <reg gp="01">\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\</reg>
+    <reg gp="01">\REGISTRY\MACHINE\SYSTEM\</reg>
+    <reg gp="01">\REGISTRY\MACHINE\</reg>
+    <reg gp="01">Policies\Explorer\Run</reg>
+    <reg ti="1060">Run</reg>
+    <reg ti="1060">RunOnce</reg>
+    <reg ti="1060">RunServices</reg>
+    <reg ti="1060">RunServicesOnce</reg>
+    <reg gp="01">\Device</reg>
+    <reg gp="01">\DosDevices</reg>
+    <reg gp="01">DEFAULT\Software</reg>
+    <reg gp="01">.DEFAULT\Software</reg>
+    <reg gp="01">HKEY_CURRENT_USER</reg>
+    <reg gp="01">HKEY_LOCAL_MACHINE</reg>
+    <reg gp="01">HKEY_DYN_DATA</reg>
+    <reg gp="01">HKEY_PERFORMANCE_DATA</reg>
+    <reg gp="01">HKEY_CLASSES_ROOT</reg>
+    <reg gp="01">HKEY_CURRENT_USER</reg>
+    <reg gp="01">HKEY_LOCAL_MACHINE</reg>
+    <reg gp="01">HKEY_USERS</reg>
+    <reg gp="01">HKEY_PERFORMANCE_DATA</reg>
+    <reg gp="01">HKEY_CURRENT_CONFIG</reg>
+    <reg gp="01">HKEY_DYN_DATA</reg>
+    <reg gp="01">SYSTEM\ControlSet001\Services\</reg>
+    <reg gp="01">System\CurrentControlSet\Services\</reg>
+    <reg gp="01">HKCR</reg>
+    <reg gp="01">HKCU</reg>
+    <reg gp="01">HKLM</reg>
+    <reg gp="01">HKPD</reg>
+    <reg gp="01">HKDD</reg>
+    <reg gp="01">HKCC</reg>
+    <reg gp="01">HKCU</reg>
+    <reg gp="01">disabletaskmanager</reg>
+    <reg gp="01">warnonintranet</reg>
+    <reg ti="1103">loadappinit_dlls</reg>
+    <reg ti="1103">AppInit_DLLs</reg>
+    <reg>noprotectedmodebanner</reg>
+    <reg gp="01">root\securitycenter</reg>
+    <reg gp="01">\registry\machine</reg>
+    <reg gp="01">system\currentcontrolset</reg>
+    <reg gp="01">system\controlset001</reg>
+    <reg gp="01">system\controlset002</reg>
+    <reg gp="01">system\controlset003</reg>
+    <reg gp="01">system\wpa</reg>
+    <reg gp="01">\systemroot</reg>
+    <reg gp="01">\shell\open\command</reg>
+  </regs>
+
+  <folders>
+    <!-- Common folder variables http://www.microsoft.com/security/portal/mmpc/shared/variables.aspx#startup -->
+    <folder>%ALLUSERPROFILE%</folder>
+    <folder>AppData</folder>
+    <folder>%APPDATA%</folder>
+    <folder>commonappdata</folder>
+    <folder>%CommonProgramFiles%</folder>
+    <folder>%HOMEPATH%</folder>
+    <folder>%LOCALAPPDATA%</folder>
+    <folder>%ProgramData%</folder>
+    <folder>%ProgramFiles%</folder>
+    <folder>%PUBLIC%</folder>
+    <folder>%SystemDrive%</folder>
+    <folder>%SystemRoot%</folder>
+    <folder>%TEMP%</folder>
+    <folder>%USERPROFILE%</folder>
+    <folder>%windows%</folder>
+    <folder>%windir%</folder>
+    <folder>%system%</folder>
+    <folder>%temp%</folder>
+    <folder>%user%</folder>
+    <folder>%programfiles%</folder>
+    <folder>\WINNT\</folder>
+    <folder>\winnt\</folder>
+    <folder>\WINDOWS\</folder>
+    <folder>\windows\</folder>
+    <folder>\SYSTEM32\</folder>
+    <folder>\system32\</folder>
+    <folder>\SYSTEM\</folder>
+    <folder>\system\</folder>
+    <folder>\SYSTEMROOT\</folder>
+    <folder>\systemroot\</folder>
+    <folder>\SystemRoot\</folder>
+  </folders>
+
+  <offices>
+    <office hint="23">AutoOpen</office>
+    <office hint="23">SummaryInformation</office>
+    <office hint="23">Document_Close</office>
+    <office hint="23">Document_New</office>
+    <office hint="23">Document_Open</office>
+    <office hint="23">Macros</office>
+    <office hint="23">Enable Content</office>
+    <office hint="23">Root Entry</office>
+    <office hint="23">Please Enable Content to see this document.</office>
+    <office hint="23">DocumentSummaryInformation</office>
+    <office hint="23">PROJECT.THISDOCUMENT.AUTOOPEN</office>
+    <office hint="23">Microsoft Office</office>
+  </offices>
+
+  <!-- utilities -->
+  <utils hint="13">
+    <util>atbroker</util>
+    <util>appvlp</util>
+    <util ti="1045">aplib</util>
+    <util ti="1064">AutoHotkeys</util>
+    <util>bash</util>
+    <util>bochs</util>
+    <util>bginfo</util>
+    <util ti="1158">attrib</util>
+    <util ti="1060">autorun</util>
+    <util >autodelete</util>
+    <util ti="1022">bitlocker</util>
+    <util ti="1197">bitsadmin</util>
+    <util ti="1490">bcdedit</util>
+    <util ti="1059">cmd</util>
+    <util ti="1222">chmod</util>
+    <util>chdir</util>
+    <util>crss</util>
+    <util>cliprdr</util>
+    <util>CreateObject</util>
+    <util ti="1045">Compressed by jpeg-recompress</util>
+    <util gp="02">call</util>
+    <util ti="1216">cscript</util>
+    <util>calc</util>
+    <util>cacls</util>
+    <util>connect</util>
+    <util>compact</util>
+    <util>cmdkey</util>
+    <util>chcp</util>
+    <util>ctfmon</util>
+    <util ti="1140">certutil</util>
+    <util>control</util>
+    <util>cmstp</util>
+    <util>copy</util>
+    <util>create</util>
+    <util ti="1027" flag="1" sig="500">Confuser</util>
+    <util ti="1027" flag="1" sig="500">ConfuserEx</util>
+    <util gp="10" ti="1027" flag="1" sig="500">ConfuserEx v1.0.0</util>
+    <util gp="10" ti="1027" flag="1" sig="500">ConfuserEx v1.0.0-custom</util>
+    <util>dfsvc</util>
+    <util>diskpart</util>
+    <util>download</util>
+    <util>diskshadow</util>
+    <util>dsquery</util>
+    <util>dump</util>
+    <util>del</util>
+    <util>delete</util>
+    <util gp="13" ti="1002">deflate</util>
+    <util ti="1079">Decrypt</util>
+    <util>dir</util>
+    <util>date</util>
+    <util>dbgview</util>
+    <util>echo</util>
+    <util>extrac32</util>
+    <util>exec</util>
+    <util>execute</util>
+    <util>ExecQuery</util>
+    <util gp="13" ti="1105">expand</util>
+    <util>explorer</util>
+    <util ti="1079">encrypt</util>
+    <util>extract</util>
+    <util>filemon</util>
+    <util>ftp</util>
+    <util>findstr</util>
+    <util ti="1202">forfiles</util>
+    <util>if not exist</util>
+    <util ti="1016">ipconfig</util>
+    <util>fsutil</util>
+    <util gp="03">get</util>
+    <util>gcc</util>
+    <util>grub</util>
+    <util gp="13">gzip</util>
+    <util>gwmi</util>
+    <util>hha</util>
+    <util>handle</util>
+    <util gp="19" ti="1082">hostname</util>
+    <util>ieexec</util>
+    <util>ie4unit</util>
+    <util>installutil</util>
+    <util>iex</util>
+    <util>iexplorer</util>
+    <util>icacls</util>
+    <util>Install</util>
+    <util>InstallService</util>
+    <util>javascript</util>
+    <util>JScript</util>
+    <util ti="1089">pkill</util>
+    <util ti="1089">kill</util>
+    <util ti="1089">killall</util>
+    <util>iexplore</util>
+    <util gp="13" ti="1002">inflate</util>
+    <util>logonui</util>
+    <util>logon</util>
+    <util>load</util>
+    <util>launch</util>
+    <util>listdlls</util>
+    <util>[LordPE]</util>
+    <util>LordPE</util>
+    <util>lsadump</util>
+    <util>lsass</util>
+    <util>lsasrv</util>
+    <util>lzo</util>
+    <util>msxsl</util>
+    <util>makecab</util>
+    <util>mavinject</util>
+    <util>msdt</util>
+    <util>makedir</util>
+    <util ti="1076">mstsc</util>
+    <util ti="1218">msiexec</util>
+    <util>NSIS</util>
+    <util>NetMon</util>
+    <util>NullsoftInst</util>
+    <util>mimikatz</util>
+    <util>mkdir</util>
+    <util ti="1170">mshta</util>
+    <util>msbuild</util>
+    <util>mountvol</util>
+    <util>net</util>
+    <util ti="1128">netsh</util>
+    <util ti="1016">nbtstat</util>
+    <util>netstat</util>
+    <util>nltest</util>
+    <util>ngrok</util>
+    <util>nslookup</util>
+    <util>open</util>
+    <util>odbcconf</util>
+    <util>OleRun</util>
+    <util>ps</util>
+    <util>pcalua</util>
+    <util ti="1086">powershell</util>
+    <util>print</util>
+    <util>post</util>
+    <util>pop3</util>
+    <util ti="1018">ping</util>
+    <util>pslist</util>
+    <util>psexec</util>
+    <util>psexesvc</util>
+    <util hint="13">ProcessHacker</util>
+    <util>pause</util>
+    <util>procexp</util>
+    <util>process</util>
+    <util>procexpl</util>
+    <util>procmon</util>
+    <util>program</util>
+    <util ti="1021">putty</util>
+    <util>plink</util>
+    <util>reg</util>
+    <util>regasm</util>
+    <util>rdpdr</util>
+    <util>rdpsnd</util>
+    <util>regsvc</util>
+    <util ti="1117">regsvr32</util>
+    <util>reghide</util>
+    <util>rdpclip</util>
+    <util>rmdir</util>
+    <util ti="1012">reg</util>
+    <util>regasm</util>
+    <util>regsvcs</util>
+    <util>release</util>
+    <util>replace</util>
+    <util>runscripthelper</util>
+    <util>run</util>
+    <util ti="1134">runas</util>
+    <util ti="1060">runonce</util>
+    <util gp="02">rundLL</util>
+    <util ti="1085">rundll32</util>
+    <util ti="1085">RunHTMLApplication</util>
+    <util>route</util>
+    <util>regedit</util>
+    <util>regedt32</util>
+    <util>regmon</util>
+    <util>resume</util>
+    <util>sc</util>
+    <util>sfc</util>
+    <util>secedit</util>
+    <util ti="1107">sdelete</util>
+    <util ti="1107">sdelete64</util>
+    <util ti="1059">shell</util>
+    <util>shred</util>
+    <util>sqlite3</util>
+    <util>scriptrunner</util>
+    <util>sysinternals</util>
+    <util>smss</util>
+    <util>SMTP</util>
+    <util>sfxzip</util>
+    <util>socks</util>
+    <util ti="1053">shch</util>
+    <util>ScriptUtils</util>
+    <util>setup</util>
+    <util>skype</util>
+    <util>search</util>
+    <util>ScriptingEngine</util>
+    <util ti="1053">schtasks</util>
+    <util ti="1053">schtask</util>
+    <util>symerr</util>
+    <util ti="1055">svchost</util>
+    <util>spoolsvc</util>
+    <util>select</util>
+    <util>send</util>
+    <util>service</util>
+    <util>services</util>
+    <util>sysrep</util>
+    <util ti="1529">shutdown</util>
+    <util>start</util>
+    <util>shellcode</util>
+    <util>stop</util>
+    <util>systeminfo</util>
+    <util>sqldumper</util>
+    <util>sqlps</util>
+    <util>tcpview</util>
+    <util ti="1021">telnet</util>
+    <util>time</util>
+    <util>tor</util>
+    <util>tracert</util>
+    <util ti="1089">taskkill</util>
+    <util ti="1089">tskill</util>
+    <util>tasklist</util>
+    <util>tracker</util>
+    <util>unzip</util>
+    <util gp="03">urlmon</util>
+    <util>taskmgr</util>
+    <util>Task Scheduler</util>
+    <util>update</util>
+    <util>upload</util>
+    <util>URLencode</util>
+    <util ti="1045">UPX0</util>
+    <util ti="1045">UPX1</util>
+    <util ti="1045">UPX2</util>
+    <util ti="1045">UCL data compression library.</util>
+    <util>UltraVnc</util>
+    <util>UltraVncSC</util>
+    <util>vbox</util>
+    <util>vba6</util>
+    <util>vba7</util>
+    <util>vnc</util>
+    <util>vmware</util>
+    <util>vbscript</util>
+    <util ti="1486">vssadmin</util>
+    <util>virtualBox</util>
+    <util ti="1070">wevtutil</util>
+    <util>whoami</util>
+    <util>whois</util>
+    <util ti="1490">wbadmin</util>
+    <util>winftp</util>
+    <util>winrar</util>
+    <util>wine</util>
+    <util>winDir</util>
+    <util>winword</util>
+    <util ti="1047">wmic</util>
+    <util ti="1216">wscript</util>
+    <util>wireshark</util>
+    <util ti="1105">wget</util>
+    <util>write</util>
+    <util tu="1047">wmi</util>
+    <util tu="1047">wmic</util>
+    <util tu="1047">wusa</util>
+    <util>wscript.shell</util>
+    <util>xwizard</util>
+    <util>WebBrowserPassView</util>
+    <util ti="1058">xcopy</util>
+    <util>xcals</util>
+    <util>xmrig</util>
+    <util>aPLib v1.01  -  the smaller the better :)</util>
+    <util>Safengine Shielden v2.3.0.0</util>
+</utils>
+
+  <stubs hint="">
+    <stub flag="0">!This program cannot be run in DOS mode</stub>
+    <stub flag="0">!This program cannot be run in DOS mode.</stub>
+    <stub flag="1">!That program cannot be run in DOS mode.</stub>
+    <stub flag="1">!This program cannot be run in DOS>mode.</stub>
+    <stub flag="1">!This program requires Microsoft Windows.</stub>
+    <stub flag="1">This program requires Microsoft Windows.</stub>
+    <stub flag="1">!This pxzgrac cannot be run in DOS mode.</stub>
+    <stub flag="1">tHIS iS a wIN 32 pROGRAM! -=[ tE ]=-</stub>
+    <stub flag="1">This program requires Win32</stub>
+    <stub flag="1">!This pragram cannot be run in DOS mode.</stub>
+    <stub flag="1">!This is a PE dynamic link library</stub>
+    <stub flag="1">!This is a Windows NT character-mode executable</stub>
+    <stub flag="1">!This is a PE executable</stub>
+    <stub flag="1">!This is a Win32 program.</stub>
+    <stub flag="1">This is a Win32 program.</stub>
+    <stub flag="1">!That program cannot be run in DOS made.</stub>
+    <stub flag="0">This program must be run under Win32</stub>
+    <stub flag="0">This program must be run under Win32.</stub>
+    <stub flag="0">This program must be run under Win64</stub>
+    <stub flag="0">This program must be run under Win64.</stub>
+    <stub flag="1">ThisprogrammustberununderWin32</stub>
+    <stub flag="1">!Require Windows</stub>
+    <stub flag="1">Requires Win32   $</stub>
+    <stub flag="1">!It's .NET EXE$@</stub>
+    <stub flag="1">!Win32. EXE</stub>
+    <stub flag="1">!Win32 .EXE.</stub>
+    <stub flag="1">!Windows ONLY!</stub>
+    <stub flag="1">Win32 only!</stub>
+    <stub flag="0">Win32 Program!</stub>
+    <stub flag="0">Win64 Program!</stub>
+    <stub flag="1">!Windows Program</stub>
+    <stub flag="0">Wine builtin DLL</stub>
+    <stub flag="1">~Fun Loving Criminal~</stub>
+    <stub flag="1">!This is a Windows NT windowed dynamic link library</stub>
+    <stub flag="1">!this is a Windows NT windowed executable</stub>
+    <stub flag="1">MZ</stub>
+  </stubs>
+
+  <strings>
+    <string flag="1" gp="132" ti="1027" >ASM_Guard</string>
+    <string flag="1" gp="04" ti="1022">EncryptMessage</string>
+    <string flag="1" gp="04" ti="1022">Decryption</string>
+    <string flag="0" gp="02" ti="1086">ExecuteFile</string>
+    <string flag="0" gp="02" ti="1086">RunProgram</string>
+    <string gp="10" flag="1" ti="1027" sig="500">ConfusedByAttribute</string>
+    <string gp="10" ti="1001">YanoAttribute</string>
+    <string gp="10" ti="1001">BabelObfuscatorAttribute</string>
+    <string gp="10" ti="1001">ObfuscatedByGoliath</string>
+    <string gp="10" ti="1001">NineRays.Obfuscator.Evaluation</string>
+    <string gp="10" ti="1001">Beds-Protector-v7.0</string>
+    <string gp="10" ti="1001">Beds-Protector</string>
+    <string gp="10" ti="1001">Reactor</string>
+    <string gp="10" ti="1001">VMProtect</string>
+    <string flag="1">inflate</string>
+    <string flag="1">/c vssadmin.exe delete shadows /all /quiet</string>
+    <string flag="1">WinZip Self-Extractor - Password</string>
+    <string flag="1">This self-extracting Zip file is password protected.</string>
+    <string flag="1">Your personal files are encrypted!</string>
+    <string flag="1" hint="13">WScript.Shell</string>
+    <string flag="1" hint="13" ti="1086">Shell.Execute</string>
+    <string flag="1">System Volume Information</string>
+    <string flag="1">Boot</string>
+    <string flag="1" ti="1620" gp="02">ReflectiveLoader</string>
+    <string flag="1" ti="1620" gp="02">_ReflectiveLoader</string>
+    <string flag="1" ti="1620" gp="02">_ReflectiveLoader@0</string>
+    <string flag="1" ti="1620" gp="02">_ReflectiveLoader@4</string>
+    <string flag="1" ti="1620" gp="02">unsigned long __stdcall ReflectiveLoader(void *)</string>
+    <string gp="01">Registry</string>
+    <string gp="01" ti="1112">CreateSubKey</string>
+    <string gp="--">Copyright (c) 1998-2009 by Joergen Ibsen All Rights Reserved.</string>
+    <string ti="1001" gp="10">Powered by SmartAssembly 6.8.0.121</string>
+    <string ti="1001" gp="10">!Powered by SmartAssembly 6.6.1.44</string>
+    <string ti="1001" gp="10">!Powered by SmartAssembly 6.6.4.95</string>
+    <string ti="1001" gp="10">$Info: This file is packed with the UPX executable packer http://upx.sf.net $</string>
+    <string ti="1001" gp="10">$Id: UPX 3.91 Copyright (C) 1996-2013 the UPX Team. All Rights Reserved. $</string>
+
+    <string gp="14" ti="1179" >WH_CALLWNDPROC</string>
+    <string gp="14" ti="1179" >WH_CALLWNDPROCRET</string>
+    <string gp="14" ti="1179" >WH_CBT</string>
+    <string gp="14" ti="1179" >WH_DEBUG</string>
+    <string gp="14" ti="1179" >WH_FOREGROUNDIDLE</string>
+    <string gp="14" ti="1179" >WH_GETMESSAGE</string>
+    <string gp="14" ti="1179" >WH_JOURNALPLAYBACK</string>
+    <string gp="14" ti="1179" >WH_JOURNALRECORD</string>
+    <string gp="14" ti="1179" hint="20">WH_KEYBOARD_LL</string>
+    <string gp="14" ti="1179" hint="20">WH_KEYBOARD</string>
+    <string gp="14" ti="1179" hint="">WH_MOUSE_LL</string>
+    <string gp="14" ti="1179" hint="">WH_MOUSE</string>
+    <string gp="14" ti="1179" >WH_MSGFILTER</string>
+    <string gp="14" ti="1179" >WH_SYSMSGFILTER</string>
+    <string gp="14" ti="1179" >WH_SHELL</string>
+
+    <string gp="30" flag="1">ConsentPromptBehaviorAdmin</string>
+    <string gp="--">Files encrypted</string>
+    <string gp="--">MemoryScanner</string>
+    <string gp="--">\\.\PhysicalDrive%d</string>
+    <string gp="--">IsAdmin</string>
+    <string gp="04" ti="1001">Microsoft Enhanced Cryptographic Provider v1.0</string>
+    <string gp="04" ti="1001">Microsoft Strong Cryptographic Provider</string>
+    <string gp="04" ti="1001">Microsoft Base Cryptographic Provider v1.0</string>
+    <string gp="04" ti="1001">Microsoft Enhanced RSA and AES Cryptographic Provider</string>
+    <string gp="04" ti="1001">Intel Hardware Cryptographic Service Provider</string>
+    <string gp="04" ti="1001">Microsoft Unified Security Protocol Provider</string>
+    <string gp="04" ti="1001">Encryptioninfo</string>
+    <string gp="04" ti="1001">EncryptedPackage</string>
+    <string gp="04" ti="1001">StrongEncryptionDataSpace</string>
+    <string gp="04" ti="1001">StrongEncryptionTransform</string>
+    <string gp="04" ti="1001">AesCryptoServiceProvider</string>
+    <string gp="04" flag="1" ad="0" ti="1001">encryptFolderContents</string>
+    <string gp="04" ti="1001">RijndaelManaged</string>
+    <string gp="04" bl="1" ti="1001">CryptoStream</string>
+    <string gp="04" ti="1001">RNGCryptoServiceProvider</string>
+    <string gp="04" ti="1001">SHA1CryptoServiceProvider</string>
+    <string gp="04" ti="1001">ICryptoTransform</string>
+    <string gp="10" ti="1001">DotfuscatorAttribute</string>
+    <string gp="10" flag="1" ti="1140">FromBase64String</string>
+    <string gp="10" flag="1" ti="1140">ToBase64String</string>
+    <string gp="10" flag="1" ti="1140">Base64Decode</string>
+    <string gp="10" flag="1" ti="1140">base64EncodedData</string>
+    <string gp="02">get_ProcessName</string>
+    <string gp="02">get_ExecutablePath</string>
+    <string gp="02">ProcessStartInfo</string>
+    <string gp="03">HttpDownload</string>
+    <string gp="03">HttpResponse</string>
+    <string gp="03">HttpRequest</string>
+    <string gp="03">ProcessRequest</string>
+    <string gp="03">HttpContext</string>
+    <string gp="03" ti="1086">DownloadString</string>
+    <string gp="02" ti="1086">DynamicRun</string>
+    <string gp="02" ti="1086">InvokeV</string>
+    <string gp="02" ti="1086">CallMethod</string>
+    <string gp="02" ti="1086">CallMethodV</string>
+    <string gp="09">RegisterServiceProcess</string>
+    <string gp="01">RegWrite</string>
+    <string gp="01">RegDelete</string>
+
+    <string gp="04" flag="1" ti="1001">EncodeBlock</string>
+    <string gp="10" ti="1001">Rijndael</string>
+    <string gp="10" bl="1" ti="1001">CipherMode</string>
+    <string gp="10" ti="1001">Twofish</string>
+    <string gp="10" ti="1001">Blowfish</string>
+    <string gp="04" fl="1" ti="1001">CreateDecryptor</string>
+    <string gp="04" fl="1" ti="1001">CryptoStreamMode</string>
+    <string gp="04" ti="1001">DESCryptoServiceProvider</string>
+    <string gp="04" ti="1001">MD5CryptoServiceProvider</string>
+    <string gp="04" ti="1001">TripleDESCryptoServiceProvider</string>
+    <string gp="02" ti="1086">DelegateExecute</string>
+    <string ti="1086">ExecuteCommand</string>
+    <string gp="13" ti="1002">Inflate</string>
+    <string gp="13" ti="1002">ZipAndEncrypt</string>
+    <string gp="13" ti="1002">ZipAndAES</string>
+    <string>EncryptFile</string>
+    <string>RunAsShellUser</string>
+    <string>RunProgram</string>
+    <string ti="1002">CabinetFile</string>
+    <string ti="1002">cabfile</string>
+    <string ti="1027">petite</string>
+    <string ti="1027">.petite</string>
+    <string>PECompact2</string>
+    <string ti="1059">Shell</string>
+    <string ti="1060">autoRunKeyPath</string>
+    <string>PROCMON_WINDOW_CLASS</string>
+    <string>APISpy32Class</string>
+    <string>TokenPrivilege</string>
+    <string>DownloadUrl</string>
+    <string ti="1045">Decompress</string>
+    <string ti="1045">LzmaDecoder</string>
+    <string ti="1045">LZO real-time data compression library.</string>
+    <string gp="12">RegisterWindow</string>
+    <string ti="1140">GZipStream</string>
+    <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/</string>
+    <string>RenameFile</string>
+    <string>IDetourHook</string>
+    <string>DetourHook</string>
+    <string>CaptureScreen</string>
+    <string ti="1179" flag="1">Shell_TrayWnd</string>
+    <string gp="09">ServiceName</string>
+    <string gp="09">DisplayName</string>
+
+    <!-- WMI-->
+    <string>ScriptingEngine</string>
+    <string>ProbeScriptFint</string>
+    <string>ActiveScriptEventConsumer</string>
+    <string>WbemScripting.SWbemLocator</string>
+    <string>ROOT\CIMV2</string>
+    <string>SELECT * from Win32_BaseBoard</string>
+    <string hint="11">WMIHelper</string>
+
+    <string>WM_HTML_GETOBJECT</string>
+    <string>WM_COPYDATA</string>
+    <string gp="15" flag="1" ti="1115">WM_CLIPBOARDUPDATE</string>
+
+    <string gp="30">SE_PRIVILEGE_ENABLED_BY_DEFAULT</string>
+    <string gp="30">SE_PRIVILEGE_ENABLED</string>
+    <string gp="30">SE_PRIVILEGE_REMOVED</string>
+    <string gp="30">SE_PRIVILEGE_USED_FOR_ACCESS</string>
+    <string gp="30">SE_PRIVILEGE_VALID_ATTRIBUTES</string>
+    <string gp="30">SE_CREATE_TOKEN_NAME</string>
+    <string gp="30">SE_ASSIGNPRIMARYTOKEN_NAME</string>
+    <string gp="30">SE_LOCK_MEMORY_NAME</string>
+    <string gp="30">SE_INCREASE_QUOTA_NAME</string>
+    <string gp="30">SE_UNSOLICITED_INPUT_NAME</string>
+    <string gp="30">SE_MACHINE_ACCOUNT_NAME</string>
+    <string gp="30">SE_TCB_NAME</string>
+    <string gp="30">SE_SECURITY_NAME</string>
+    <string gp="30">SE_TAKE_OWNERSHIP_NAME</string>
+    <string gp="30">SE_LOAD_DRIVER_NAME</string>
+    <string gp="30">SE_SYSTEM_PROFILE_NAME</string>
+    <string gp="30">SE_SYSTEMTIME_NAME</string>
+    <string gp="30">SE_PROF_SINGLE_PROCESS_NAME</string>
+    <string gp="30">SE_INC_BASE_PRIORITY_NAME</string>
+    <string gp="30">SE_CREATE_PAGEFILE_NAME</string>
+    <string gp="30">SE_CREATE_PERMANENT_NAME</string>
+    <string gp="30">SE_BACKUP_NAME</string>
+    <string gp="30">SE_RESTORE_NAME</string>
+    <string gp="30">SE_SHUTDOWN_NAME</string>
+    <string gp="30">SE_DEBUG_NAME</string>
+    <string gp="30">SE_AUDIT_NAME</string>
+    <string gp="30">SE_SYSTEM_ENVIRONMENT_NAME</string>
+    <string gp="30">SE_CHANGE_NOTIFY_NAME</string>
+    <string gp="30">SE_REMOTE_SHUTDOWN_NAME</string>
+    <string gp="30">SE_UNDOCK_NAME</string>
+    <string gp="30">SE_SYNC_AGENT_NAME</string>
+    <string gp="30">SE_ENABLE_DELEGATION_NAME</string>
+    <string gp="30">SE_MANAGE_VOLUME_NAME</string>
+    <string gp="30">SE_IMPERSONATE_NAME</string>
+    <string gp="30">SE_CREATE_GLOBAL_NAME</string>
+    <string gp="30">SE_TRUSTED_CREDMAN_ACCESS_NAME</string>
+    <string gp="30">SE_RELABEL_NAME</string>
+    <string gp="30">SE_INC_WORKING_SET_NAME</string>
+    <string gp="30">SE_TIME_ZONE_NAME</string>
+    <string gp="30">SE_CREATE_SYMBOLIC_LINK_NAME</string>
+    <string gp="30">SE_GROUP_ENABLED_BY_DEFAULT</string>
+    <string gp="30">SE_GROUP_ENABLED</string>
+    <string gp="30">SE_GROUP_OWNER</string>
+    <string gp="30">SE_GROUP_USE_FOR_DENY_ONLY</string>
+    <string gp="30">SE_GROUP_INTEGRITY</string>
+    <string gp="30">SE_GROUP_INTEGRITY_ENABLED</string>
+    <string gp="30">SE_GROUP_LOGON_ID</string>
+    <string gp="30">SE_GROUP_RESOURCE</string>
+    <string gp="30">SE_GROUP_VALID_ATTRIBUTES</string>
+
+    <string>execScript</string>
+    <string>Microsoft\Windows\Start Menu</string>
+    <string>Microsoft\Windows\Start Menu\Programs</string>
+    <string ti="1001" flag="0">SFX module - Copyright (c) 2005-2012 Oleg Scherbakov</string>
+    <string ti="1560" flag="0">7-Zip archiver - Copyright (c) 1999-2011 Igor Pavlov</string>
+    <string ti="1560" flag="1">lzmat</string>
+    <string ti="1001" flag="1">mpress</string>
+    <string ti="1001" flag="1">mscompressed</string>
+    <string ti="1001" flag="1">mscompressed</string>
+    <string flag="1">cracked by ximo</string>
+    <string ti="1001" flag="1">VMProtect begin</string>
+    <string ti="1001" flag="1">VMProtect end</string>
+
+    <string gp="21" flag="0">DLL_PROCESS_ATTACH</string>
+    <string gp="21" flag="0">DLL_PROCESS_DETACH</string>
+
+    <string gp="04">DecryptByte</string>
+    <string gp="04">DecryptBlock</string>
+    <string flag="1" gp="10" ti="1132">Yoda's Protector</string>
+    <string flag="1" gp="10" ti="1132">Beds-Protector</string>
+    <string flag="1" gp="10" ti="1132">Beds-Protector-v7.0</string>
+    <string flag="1" gp="10" ti="1132">ENIGMA</string>
+    <string flag="1" gp="10" ti="1132">Enigma Protector</string>
+    <string flag="1" gp="13" hint="29">ProcessedByFody</string>
+  </strings>
+</xml>
+

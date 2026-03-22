@@ -1,0 +1,160 @@
+<!--
+This file is part of the pestudio solution (www.winitor.com).
+Usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that this file can be modified when running pestudio.
+-->
+<xml version="1.0" encoding="utf-8" detail="">
+  <indicators>
+    <item enable="1" severity="3" id="1000" type="00" ti="----" detail="size: %i bytes, entropy: %.03f">file > info</item>
+    <item enable="1" severity="3" id="1001" type="10" ti="----" detail="%s, %s, %s">file > type</item>
+    <item enable="1" severity="3" id="1002" type="08" ti="----" detail="%s">file > description</item>
+    <item enable="1" severity="3" id="1003" type="--" ti="----" detail="%s">file > first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1004" type="--" ti="----" detail="%s">file > first %s bytes (text)</item>
+    <item enable="1" severity="1" id="1005" type="10" ti="----" detail="%i bytes">optional-header > size</item>
+    <item enable="1" severity="1" id="1006" type="09" ti="----" detail="%i bytes">file-header > size</item>
+    <item enable="0" severity="3" id="1007" type="09" ti="----" detail="%i bytes">sections > alignment</item>
+    <item enable="1" severity="3" id="1008" type="01" ti="----" detail="%s">file</item>
+    <item enable="1" severity="3" id="1009" type="01" ti="----" detail="%s">file > version</item>
+    <item enable="0" severity="3" id="1010" type="09" ti="----" detail="%i bytes">file > alignment</item>
+    <item enable="1" severity="3" id="1011" type="17" ti="----" detail="size: %i bytes, offset: 0x%08X, file-ratio: %.02f%%">certificate > info</item>
+    <item enable="1" severity="1" id="1012" type="17" ti="----" detail="%s">stamp-compiler > stamp-certificate</item>
+    <item enable="1" severity="3" id="1013" type="08" ti="----" detail="%s">rich-header > footprint</item>
+    <item enable="0" severity="3" id="1014" type="09" ti="----" detail="0x%08X">file > image-base</item>
+    <item enable="1" severity="3" id="1015" type="26" ti="----" detail="%s">overlay > first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1016" type="26" ti="----" detail="%s">overlay > first %s bytes (text)</item>
+    <item enable="1" severity="1" id="1017" type="26" ti="----" detail="signature: %s, offset: 0x%08X, size: %i bytes, entropy: %.03f">overlay > info</item>
+    <item enable="0" severity="3" id="1018" type="12" ti="----" detail="%s"></item>
+    <item enable="1" severity="3" id="1019" type="08" ti="----" detail="checksum: 0x%08X, offset: 0x%08X">rich-header > checksum</item>
+    <item enable="1" severity="3" id="1020" type="21" ti="----" detail="%s">resource > first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1021" type="21" ti="----" detail="%s">resource > first %s bytes (text)</item>
+    <item enable="1" severity="3" id="1022" type="00" ti="----" detail="%s">file > name</item>
+    <item enable="0" severity="2" id="1023" type="13" ti="----" detail="%s">libraries > duplicate</item>
+    <item enable="1" severity="3" id="1024" type="12" ti="----" detail="%s">entry-point > first %s bytes (hex)</item>
+    <item enable="1" severity="1" id="1025" type="13" ti="----" detail="%s">injection > technique</item>
+    <item enable="1" severity="3" id="1026" type="13" ti="----" detail="%s">libraries > bound</item>
+    <item enable="1" severity="3" id="1027" type="09" ti="----" detail="%s">file > code-less</item>
+    <item enable="1" severity="1" id="1028" type="20" ti="----" detail="signature: %s, offset: 0x%08X, size: %i bytes">resource > file</item>
+    <item enable="1" severity="1" id="1029" type="20" ti="----" detail="signature: %s, offset: 0x%08X, size: %i bytes">section > file</item>
+    <item enable="1" severity="3" id="1033" type="19" ti="----" detail="%s">thread-local-storage > callback</item>
+    <item enable="1" severity="1" id="1034" type="12" ti="----" detail="0x%08X">entry-point > invalid</item>
+    <item enable="1" severity="2" id="1035" type="26" ti="----" detail="%.03f">overlay > entropy</item>
+    <item enable="0" severity="2" id="1036" type="10" ti="----" detail="0x%08X">file > checksum</item>
+    <item enable="1" severity="1" id="1037" type="17" ti="----" detail="%i bytes">certificate > tail</item>
+    <item enable="1" severity="3" id="1038" type="17" ti="----" detail="%s">certificate > serial-number</item>
+    <item enable="0" severity="3" id="1040" type="17" ti="----" detail="%s">certificate > type</item>
+    <item enable="1" severity="2" id="1042" type="17" ti="----" detail="%s">certificate > stamp > valid-from</item>
+    <item enable="1" severity="3" id="1043" type="17" ti="----" detail="%i bytes">certificate > PKCS7 > size</item>
+    <item enable="1" severity="3" id="1044" type="17" ti="----" detail="%i bytes">certificate > PKCS7 > size > NULL-padding</item>
+    <item enable="1" severity="2" id="1045" type="15" ti="----" detail="%s">entry-point > export</item>
+    <item enable="1" severity="1" id="1046" type="17" ti="----" detail="%s">certificate > signature-info</item>
+    <item enable="1" severity="3" id="1047" type="17" ti="----" detail="%s">certificate</item>
+    <item enable="0" severity="2" id="1048" type="17" ti="----" detail="%s">certificate > issued-to > error</item>
+    <item enable="1" severity="3" id="1049" type="17" ti="----" detail="%s">certificate > stamp > signing</item>
+    <item enable="1" severity="3" id="1050" type="17" ti="----" detail="%s">certificate > stamp > valid-to</item>
+    <item enable="1" severity="2" id="1051" type="09" ti="----" detail="%s">file > network</item>
+    <item enable="1" severity="2" id="1052" type="09" ti="----" detail="%s">file > removable</item>
+    <item enable="1" severity="2" id="1053" type="17" ti="----" detail="%s (expired)">certificate > stamp</item>
+    <item enable="1" severity="3" id="1054" type="17" ti="----" detail="%s">certificate > first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1055" type="17" ti="----" detail="%s">certificate</item>
+    <item enable="1" severity="3" id="1056" type="10" ti="----" detail="%s">security > protection</item>
+    <item enable="1" severity="3" id="1057" type="21" ti="----" detail="%s">version > first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1058" type="21" ti="----" detail="%s">version > first %s bytes (text)</item>
+    <item enable="1" severity="3" id="1059" type="23" ti="----" detail="%s">first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1060" type="23" ti="----" detail="%s">first %s bytes (text)</item>
+    <item enable="0" severity="3" id="1061" type="10" ti="----" detail="%i">Exception handler > count</item>
+    <item enable="1" severity="1" id="1062" type="06" ti="----" detail="0x%08X">dos-header > offset > unusual</item>
+    <item enable="1" severity="3" id="1063" type="05" ti="----" detail="%s">virustotal > score</item>
+    <item enable="1" severity="1" id="1064" type="05" ti="----" detail="%i/%i">virustotal > score</item>
+    <item enable="1" severity="3" id="1065" type="05" ti="----" detail="%s">virustotal > score</item>
+    <item enable="1" severity="3" id="1066" type="05" ti="----" detail="%s">virustotal > permalink</item>
+    <item enable="1" severity="3" id="1067" type="05" ti="----" detail="%s">virustotal > scan-date</item>
+    <item enable="1" severity="2" id="1068" type="04" ti="----" detail="%s">mitre > technique</item>
+    <item enable="1" severity="3" id="1069" type="04" ti="----" detail="%s">mitre > tactic</item>
+    <item enable="1" severity="3" id="1070" type="09" ti="----" detail="0x%08X">file-header > offset</item>
+    <item enable="1" severity="3" id="1071" type="23" ti="----" detail="%s">debug > file-name</item>
+    <item enable="1" severity="2" id="1072" type="12" ti="----" detail="name: %s">section > virtualized</item>
+    <item enable="1" severity="2" id="1073" type="23" ti="----" detail="%s">debug > GUID</item>
+    <item enable="1" severity="2" id="1074" type="23" ti="----" detail="%s">stamp > debug</item>
+    <item enable="1" severity="3" id="1075" type="23" ti="----" detail="%i">debug > age</item>
+    <item enable="1" severity="3" id="1076" type="23" ti="----" detail="type: %s, size: %i bytes, file-ratio: %.02f%%, stamp: %s">debug > stream</item>
+    <item enable="1" severity="3" id="1077" type="23" ti="----" detail="%s">first %s bytes (hex)</item>
+    <item enable="1" severity="3" id="1078" type="23" ti="----" detail="%s">first %s bytes (text)</item>
+    <item enable="1" severity="3" id="1079" type="26" ti="----" detail="%s">overlay</item>
+    <item enable="1" severity="3" id="1080" type="21" ti="----" detail="%s">resource</item>
+    <item enable="1" severity="2" id="1081" type="10" ti="----" detail="%i bytes">optional-header > size-of-code</item>
+    <item enable="0" severity="2" id="1082" type="09" ti="----" detail="0x%08X">base-of-code > suspicious</item>
+    <item enable="0" severity="2" id="1083" type="09" ti="----" detail="0x%08X">file-alignment > suspicious</item>
+    <item enable="0" severity="2" id="1084" type="09" ti="----" detail="0x%08X">size-of-image > suspicious</item>
+    <item enable="1" severity="2" id="1085" type="09" ti="----" detail="0x%08X">size-of-headers > suspicious</item>
+    <item enable="1" severity="3" id="1210" type="10" ti="----" detail="%i">directories > count</item>
+    <item enable="1" severity="2" id="1211" type="10" ti="----" detail="count: %i">optional-header > directories</item>
+    <item enable="0" severity="3" id="1215" type="11" ti="----" detail="%.02f%%">sections > file-ratio</item>
+    <item enable="1" severity="3" id="1221" type="21" ti="----" detail="count: %i, size: %i bytes, file-ratio: %.02f%%">resources > info</item>
+    <item enable="0" severity="1" id="1222" type="12" ti="----" detail="name: %s">sections > executable</item>
+    <item enable="1" severity="2" id="1223" type="12" ti="----" detail="name: %s">section > writable</item>
+    <item enable="1" severity="3" id="1224" type="12" ti="----" detail="0x%08X (section: %s)">entry-point > location</item>
+    <item enable="0" severity="3" id="1234" type="21" ti="----" detail="%i">resources > instances > dotnet</item>
+    <item enable="1" severity="3" id="1236" type="21" ti="----" detail="%s">languages > names</item>
+    <item enable="1" severity="2" id="1245" type="12" ti="----" detail="name: %s">sections > flag</item>
+    <item enable="1" severity="3" id="1250" type="15" ti="----" detail="%s">exports</item>
+    <item enable="1" severity="3" id="1251" type="15" ti="----" detail="%s">exports > names</item>
+    <item enable="1" severity="2" id="1252" type="15" ti="----" detail="count: %i">exports > duplicates</item>
+    <item enable="1" severity="3" id="1253" type="15" ti="----" detail="%i">exports > count</item>
+    <item enable="1" severity="2" id="1254" type="15" ti="1574" detail="count: %i">exports > forwarded</item>
+    <item enable="1" severity="2" id="1256" type="15" ti="----" detail="count: %i">exports > anonymous</item>
+    <item enable="1" severity="2" id="1257" type="15" ti="----" detail="count: %i">exports > gaps</item>
+    <item enable="1" severity="3" id="1259" type="00" ti="----" detail="%s">exports > file-name</item>
+    <item enable="1" severity="2" id="1260" type="06" ti="----" detail="%s">dos-stub > message</item>
+    <item enable="1" severity="1" id="1261" type="24" ti="----" detail="%s">symbols > flag</item>
+    <item enable="1" severity="3" id="1262" type="14" ti="----" detail="%i">imports > count</item>
+    <item enable="1" severity="3" id="1264" type="14" ti="----" detail="%i">imports > ordinal > count</item>
+    <item enable="1" severity="1" id="1266" type="14" ti="----" detail="%s">imports > flag</item>
+    <item enable="1" severity="2" id="1267" type="24" ti="----" detail="size: %i bytes">string > suspicious</item>
+    <item enable="1" severity="2" id="1268" type="14" ti="----" detail="count: %i">imports > spoofing</item>
+    <item enable="1" severity="2" id="1269" type="13" ti="----" detail="%s (%s)">libraries > flag</item>
+    <item enable="1" severity="1" id="1270" type="13" ti="----" detail="%s">libraries > spoofing</item>
+    <item enable="1" severity="3" id="1271" type="01" ti="----" detail="%s">imphash > md5</item>
+    <item enable="0" severity="2" id="1272" type="14" ti="----" detail="%i">imports > callback</item>
+    <item enable="1" severity="2" id="1273" type="14" ti="----" detail="%s">imports</item>
+    <item enable="1" severity="1" id="1274" type="05" ti="----" detail="%s">dos-stub > suspicious</item>
+    <item enable="1" severity="3" id="1288" type="20" ti="----" detail="%s">.NET > property > missing</item>
+    <item enable="1" severity="2" id="1290" type="20" ti="----" detail="stream[%i]">.NET > stream > suspicous</item>
+    <item enable="1" severity="1" id="1291" type="20" ti="----" detail="%s">.NET > stream > flag</item>
+    <item enable="1" severity="3" id="1292" type="20" ti="----" detail="%s">.NET > module > name</item>
+    <item enable="1" severity="3" id="1293" type="20" ti="----" detail="%s">.NET > file >strongly-named</item>
+    <item enable="0" severity="3" id="1294" type="20" ti="----" detail="%i">.NET > methods > managed</item>
+    <item enable="1" severity="3" id="1296" type="13" ti="----" detail="%s">libraries > p/invoke</item>
+    <item enable="1" severity="1" id="1297" type="20" ti="----" detail="%s">.NET > file > obfuscated</item>
+    <item enable="1" severity="1" id="1298" type="20" ti="----" detail="%s">.NET > namespace > flag</item>
+    <item enable="1" severity="3" id="1300" type="20" ti="----" detail="%s">.NET > stream</item>
+    <item enable="1" severity="1" id="1301" type="11" ti="----" detail="%s">directory > missing</item>
+    <item enable="0" severity="3" id="1302" type="11" ti="----" detail="%s">directory > invalid</item>
+    <item enable="1" severity="3" id="1304" type="20" ti="----" detail="%s">.NET > assemby > GUID</item>
+    <item enable="1" severity="1" id="1306" type="11" ti="----" detail="%i/%i">directories > empty > count</item>
+    <item enable="1" severity="2" id="1320" type="11" ti="----" detail="%s">stamp > directory</item>
+    <item enable="1" severity="3" id="1321" type="09" ti="----" detail="%s">stamp > compiler</item>
+    <item enable="1" severity="1" id="1400" type="25" ti="----" detail="%s">manifest > privilege</item>
+    <item enable="1" severity="2" id="1401" type="25" ti="----" detail="%s">manifest > privilege</item>
+    <item enable="1" severity="1" id="1402" type="25" ti="----" detail="%s">manifest > UAC</item>
+    <item enable="1" severity="3" id="1404" type="25" ti="----" detail="name: %s, description: %s, severity: %s">manifest > general</item>
+    <item enable="0" severity="3" id="1423" type="09" ti="----" detail="%s">file > target</item>
+    <item enable="1" severity="3" id="1424" type="23" ti="----" detail="%s">file > internal > name</item>
+    <item enable="0" severity="3" id="1429" type="24" ti="----" detail="%i">strings > ignore > count</item>
+    <item enable="0" severity="2" id="1430" type="24" ti="----" detail="%i">strings > flag > count</item>
+    <item enable="1" severity="3" id="1431" type="24" ti="----" detail="%s">strings > status</item>
+    <item enable="1" severity="2" id="1434" type="24" ti="----" detail="%s">string > url-pattern</item>
+    <item enable="1" severity="2" id="1484" type="13" ti="----" detail="%s">libraries</item>
+    <item enable="1" severity="1" id="1486" type="21" ti="----" detail="%i bytes">version > size</item>
+    <item enable="1" severity="3" id="1487" type="21" ti="----" detail="%s">file-name > version</item>
+    <item enable="1" severity="2" id="1488" type="06" ti="----" detail="%i bytes">dos-header > unusual</item>
+    <item enable="1" severity="2" id="1489" type="06" ti="----" detail="%i bytes">dos-stub > size > unusual</item>
+    <item enable="1" severity="3" id="1490" type="--" ti="----" detail="%s">file > signature</item>
+    <item enable="1" severity="2" id="1491" type="24" ti="----" detail="%s">label > %s</item>
+    <item enable="1" severity="3" id="1492" type="02" ti="----" detail="%s">group > types</item>
+    <item enable="2" severity="1" id="1494" type="12" ti="----" detail="name: %i">sections > unreadable</item>
+    <item enable="2" severity="2" id="1495" type="12" ti="----" detail="name: %s">sections > shared</item>
+    <item enable="1" severity="1" id="1496" type="12" ti="----" detail="name: %s">sections > self-modifying</item>
+    <item enable="2" severity="2" id="1497" type="12" ti="----" detail="count: %i">sections > nameless</item>
+  </indicators>
+</xml>

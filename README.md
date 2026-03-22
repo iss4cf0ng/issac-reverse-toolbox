@@ -20,6 +20,14 @@ Some tools are **NOT** my work. Please use them only in your personal virtual ma
 
 ---
 
+## Samples (For Analysis / Learning)
+
+This repository also contains **analyzed or unpacked samples** for educational and research purposes.  
+- Do **not run these samples on your main system**. Use a properly isolated virtual machine.  
+- Each sample may include notes, scripts, or extracted binaries to study behavior safely.
+
+---
+
 ## Related Links
 - Analysis of RATs
   - [Inside Different Generations of RATs](https://iss4cf0ng.github.io/InsideDifferentGenerationsOfRATs/)

@@ -1,0 +1,1110 @@
+<!--
+This file is part of the pestudio solution (www.winitor.com).
+Any usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that this file can be modified when pestudio runs.
+-->
+<xml version="1.0" encoding="utf-8">
+  <text>
+    <item id="0">hex</item>
+    <item id="1">relative</item>
+    <item id="2">absolute</item>
+    <item id="3">shared</item>
+    <item id="4">undetected</item>
+    <item id="5">self-modifying</item>
+    <item id="6">non-executable</item>
+    <item id="7">checksum-valid</item>
+    <item id="8">checksum-invalid</item>
+    <item id="9">Address-Space-Layout-Randomization (ASLR)</item>
+    <item id="10">Code-Integrity (CI)</item>
+    <item id="11">Data Execution Prevention (DEP)</item>
+    <item id="12">Image isolation</item>
+    <item id="13">Structured-Exception Handling (SEH)</item>
+    <item id="14">image-bound</item>
+    <item id="15">Windows-Driver Model (WDM)</item>
+    <item id="16">Terminal-Server aware (TSA)</item>
+    <item id="17">low</item>
+    <item id="18">double click > internal</item>
+    <item id="19">double click > external</item>
+    <item id="20">thread-local-storage</item>
+    <item id="21">files</item>
+    <item id="22">double-click > save to file</item>
+    <item id="23">User Interface Privilege Isolation (UIPI)</item>
+    <item id="24">Import Name Table (INT)</item>
+    <item id="25">Select file to open</item>
+    <item id="26">Exe files (*.exe)|*.exe|Dll files (*.dll)|*.dll|Sys files (*.sys)|*.sys|All Files (*.*)|*.*||</item>
+    <item id="27">failure</item>
+    <item id="28">Images (%i of %i)</item>
+    <item id="29">Image not found</item>
+    <item id="30">highest</item>
+    <item id="31">administrator</item>
+    <item id="32">invoker</item>
+    <item id="33">trust-info-missing</item>
+    <item id="34">size-PKCS7-null-padding</item>
+    <item id="35">internet connection failed</item>
+    <item id="36">overview</item>
+    <item id="37">wait...</item>
+    <item id="38">show duplicates</item>
+    <item id="39">positives</item>
+    <item id="40">bound</item>
+    <item id="41">disabled</item>
+    <item id="42">scan-id</item>
+    <item id="43">resource</item>
+    <item id="44">response-code</item>
+    <item id="45">scan-date</item>
+    <item id="46">permanent-link</item>
+    <item id="47">verbose</item>
+    <item id="48">engines</item>
+    <item id="49">detections</item>
+    <item id="50">sha1</item>
+    <item id="51">sha256</item>
+    <item id="52">md5</item>
+    <item id="53">details</item>
+    <item id="54">result</item>
+    <item id="55">vendor</item>
+    <item id="56">virustotal</item>
+    <item id="57">header</item>
+    <item id="58">results</item>
+    <item id="59">signature</item>
+    <item id="60">exports</item>
+    <item id="61">analysis</item>
+    <item id="62">ordinal</item>
+    <item id="63">available</item>
+    <item id="64">gap</item>
+    <item id="65">forwarded</item>
+    <item id="66">entry-point</item>
+    <item id="67">xml-id</item>
+    <item id="68">symbol</item>
+    <item id="69">gaps</item>
+    <item id="70">address</item>
+    <item id="71">hint</item>
+    <item id="72">offline</item>
+    <item id="73">imphash</item>
+    <item id="74">more</item>
+    <item id="75">online</item>
+    <item id="76">bl</item>
+    <item id="77">n/a</item>
+    <item id="78">callback</item>
+    <item id="79">32</item>
+    <item id="80">64</item>
+    <item id="81">map</item>
+    <item id="82">severity</item>
+    <item id="83">detection</item>
+    <item id="84">date (dd.mm.yyyy)</item>
+    <item id="85">age (days)</item>
+    <item id="86">not-supported</item>
+    <item id="87">-</item>
+    <item id="88">x</item>
+    <item id="89">directory</item>
+    <item id="90">directories</item>
+    <item id="91">obfuscated</item>
+    <item id="92">level</item>
+    <item id="93">raw-address</item>
+    <item id="94">size (bytes)</item>
+    <item id="95">open Virustotal in a Browser</item>
+    <item id="96">invalid</item>
+    <item id="97">empty</item>
+    <item id="98">missing</item>
+    <item id="99">TimeDateStamp</item>
+    <item id="100">libraries</item>
+    <item id="101">library</item>
+    <item id="102">type</item>
+    <item id="103">tooling</item>
+    <item id="104">image-base</item>
+    <item id="105">imports</item>
+    <item id="106">CPU mismatch</item>
+    <item id="107">type</item>
+    <item id="108">cpu</item>
+    <item id="109">all</item>
+    <item id="110">implicit</item>
+    <item id="111">delay-loaded</item>
+    <item id="112">application</item>
+    <item id="113">flag</item>
+    <item id="114">description</item>
+    <item id="115">Imported Library</item>
+    <item id="116">bound</item>
+    <item id="117">types</item>
+    <item id="118">created</item>
+    <item id="119">undocumented</item>
+    <item id="120">16bytes</item>
+    <item id="121">symbol</item>
+    <item id="122">section:offset</item>
+    <item id="123">library</item>
+    <item id="124">ignore</item>
+    <item id="125">deprecated</item>
+    <item id="126">anti-debug</item>
+    <item id="127">imports</item>
+    <item id="128">registries</item>
+    <item id="129">urls</item>
+    <item id="130">messages Tables</item>
+    <item id="131">Control-Flow Guard (CFG)</item>
+    <item id="132">delay-loaded</item>
+    <item id="133">strings-tables</item>
+    <item id="134">manifest</item>
+    <item id="135">certificates</item>
+    <item id="136">elevated</item>
+    <item id="137">unsafe</item>
+    <item id="138">top list</item>
+    <item id="139">begin</item>
+    <item id="140">end</item>
+    <item id="141">function</item>
+    <item id="142">score</item>
+    <item id="143">address (begin)</item>
+    <item id="144">address (end)</item>
+    <item id="145">address (unwind)</item>
+    <item id="146">expired</item>
+    <item id="147">high</item>
+    <item id="148">file</item>
+    <item id="149">duplicate</item>
+    <item id="150">property</item>
+    <item id="151">value</item>
+    <item id="152">detail</item>
+    <item id="153">status</item>
+    <item id="154">headers</item>
+    <item id="155">image</item>
+    <item id="156">error</item>
+    <item id="157">details</item>
+    <item id="158">date</item>
+    <item id="159">%.2i/%.2i/%.4i</item>
+    <item id="160">stamp</item>
+    <item id="161">%.2i:%.2i:%.2i</item>
+    <item id="162">import</item>
+    <item id="163">network error</item>
+    <item id="164">strings</item>
+    <item id="165">string</item>
+    <item id="166">footprints</item>
+    <item id="167">overlay</item>
+    <item id="168">ascii</item>
+    <item id="169">unicode</item>
+    <item id="170">file-header-offset</item>
+    <item id="171">issue</item>
+    <item id="172">groups</item>
+    <item id="173">not found</item>
+    <item id="174">32-bit words support</item>
+    <item id="175">relocation-stripped</item>
+    <item id="176">large-address-aware</item>
+    <item id="177">uniprocessor</item>
+    <item id="178">system-image</item>
+    <item id="179">dynamic-link-library</item>
+    <item id="180">file-can-be-executed</item>
+    <item id="181">debug-stripped</item>
+    <item id="182">media-run-from-swap</item>
+    <item id="183">network-run-from-swap</item>
+    <item id="184">properties</item>
+    <item id="185">hash</item>
+    <item id="186">gp</item>
+    <item id="187">group</item>
+    <item id="188">location</item>
+    <item id="189">exceptions</item>
+    <item id="190">start</item>
+    <item id="191">special</item>
+    <item id="192">data-begin</item>
+    <item id="193">data-end</item>
+    <item id="194">callback</item>
+    <item id="195">standard</item>
+    <item id="196">exception</item>
+    <item id="197">%s not found</item>
+    <item id="198">run-from-swap</item>
+    <item id="199">color-text</item>
+    <item id="200">anonymous</item>
+    <item id="201">certificate</item>
+    <item id="202">resources</item>
+    <item id="203">type</item>
+    <item id="204">instance</item>
+    <item id="205">size</item>
+    <item id="206">offset</item>
+    <item id="207">code-page</item>
+    <item id="208">language</item>
+    <item id="209">manifest</item>
+    <item id="210">assemblies</item>
+    <item id="211">assembly</item>
+    <item id="212">name</item>
+    <item id="213">line-stripped-from-file</item>
+    <item id="214">version</item>
+    <item id="215">token</item>
+    <item id="216">total</item>
+    <item id="217">count</item>
+    <item id="218">raw_data</item>
+    <item id="219">|</item>
+    <item id="220">cursor</item>
+    <item id="221">file-subtype</item>
+    <item id="222">file-os</item>
+    <item id="223">index</item>
+    <item id="224">AssembyRef</item>
+    <item id="225">TypeDef</item>
+    <item id="226">suspicious</item>
+    <item id="227">score-file</item>
+    <item id="228">score-file-details</item>
+    <item id="229">r</item>
+    <item id="230">g</item>
+    <item id="231">b</item>
+    <item id="232">settings</item>
+    <item id="233">dump to file</item>
+    <item id="234">instances</item>
+    <item id="235">bitmap</item>
+    <item id="236">string-table</item>
+    <item id="237">32-bit</item>
+    <item id="238">64-bit</item>
+    <item id="239">dos</item>
+    <item id="240">address (type)</item>
+    <item id="241">trustInfo</item>
+    <item id="242">execution</item>
+    <item id="243">file-offset</item>
+    <item id="244">file-offset (from)</item>
+    <item id="245">file-offset (to)</item>
+    <item id="246">true</item>
+    <item id="247">false</item>
+    <item id="248">level</item>
+    <item id="249">uiAccess</item>
+    <item id="250">code-less</item>
+    <item id="251">language</item>
+    <item id="252">rich-header > checksum</item>
+    <item id="253">character-set</item>
+    <item id="254">items</item>
+    <item id="255">item</item>
+    <item id="256">name</item>
+    <item id="257">value</item>
+    <item id="258">rich-header</item>
+    <item id="259">signature-offset</item>
+    <item id="260">dos-stub</item>
+    <item id="261">PE00</item>
+    <item id="262">autoElevate</item>
+    <item id="263">virtual</item>
+    <item id="264">Check online for an update</item>
+    <item id="265">unreachable</item>
+    <item id="266">tactic</item>
+    <item id="267">technique</item>
+    <item id="268">please wait while analyzing the file...</item>
+    <item id="269">INT</item>
+    <item id="270">dos-header</item>
+    <item id="271">mitre</item>
+    <item id="272">file-signature</item>
+    <item id="273">pe-offset</item>
+    <item id="274">build-id</item>
+    <item id="275">product-id</item>
+    <item id="276">IDE</item>
+    <item id="277">open > pestudio > settings</item>
+    <item id="278">proceed</item>
+    <item id="279">checksum</item>
+    <item id="280">checksum-real</item>
+    <item id="281">stamp > certificate</item>
+    <item id="282">icon</item>
+    <item id="283">stamp > export</item>
+    <item id="284">stamp > resource</item>
+    <item id="285">stamp</item>
+    <item id="286">stamp > debug</item>
+    <item id="287">e_lfanew</item>
+    <item id="288">checksum-builtin</item>
+    <item id="289">relocations</item>
+    <item id="290">file-header</item>
+    <item id="291">machine</item>
+    <item id="292">sections > count</item>
+    <item id="293">stamp > compiler</item>
+    <item id="294">pointer-symbol-table</item>
+    <item id="295">number-of-symbols</item>
+    <item id="296">dialog</item>
+    <item id="297">characteristics</item>
+    <item id="298">e_magic</item>
+    <item id="299">menu</item>
+    <item id="300">files</item>
+    <item id="301">rich-header > location</item>
+    <item id="302">resource > location</item>
+    <item id="303">first-thunk (IAT)</item>
+    <item id="304">first-thunk-original (INT)</item>
+    <item id="305">label</item>
+    <item id="306">decorated</item>
+    <item id="307">import</item>
+    <item id="308">debug</item>
+    <item id="309">relocations</item>
+    <item id="310">optional-header</item>
+    <item id="311">magic</item>
+    <item id="312">linker > version</item>
+    <item id="313">control-flow-guard</item>
+    <item id="314">size-of-code</item>
+    <item id="315">size-of-initialized-data</item>
+    <item id="316">size-of-uninitialized-data</item>
+    <item id="317">local-symbols-stripped-from-file</item>
+    <item id="318">base-of-code</item>
+    <item id="319">base-of-data</item>
+    <item id="320">image-base</item>
+    <item id="321">section-alignment</item>
+    <item id="322">file-alignment</item>
+    <item id="323">os > version</item>
+    <item id="324">enable</item>
+    <item id="325">image > version</item>
+    <item id="326">revision</item>
+    <item id="327">subsystem</item>
+    <item id="328">windows-driver-model</item>
+    <item id="329">Win32VersionValue</item>
+    <item id="330">size-of-image</item>
+    <item id="331">size-of-headers</item>
+    <item id="332">file-checksum</item>
+    <item id="333">*</item>
+    <item id="334">DllCharacteristics</item>
+    <item id="335">ASLR</item>
+    <item id="336">DEP</item>
+    <item id="337">SEH</item>
+    <item id="338">real-checksum</item>
+    <item id="339">threshold</item>
+    <item id="340">stamp > import</item>
+    <item id="341">executable</item>
+    <item id="342">dll</item>
+    <item id="343">size-of-stack-reserve</item>
+    <item id="344">size-of-stack-commit</item>
+    <item id="345">size-of-heap-reserve</item>
+    <item id="346">size-of-heap-commit</item>
+    <item id="347">LoaderFlags</item>
+    <item id="348"></item>
+    <item id="349">pdb</item>
+    <item id="350">message</item>
+    <item id="351">issued-by</item>
+    <item id="352">signer</item>
+    <item id="353">counter-signer</item>
+    <item id="354">email</item>
+    <item id="355">street</item>
+    <item id="356">postal-code</item>
+    <item id="357">certificate > stamp > valid-from</item>
+    <item id="358">certificate > stamp > valid-to</item>
+    <item id="359">organization</item>
+    <item id="360">serial-number</item>
+    <item id="361">CRL-Distribution-Point</item>
+    <item id="362">certificate > stamp > signing</item>
+    <item id="363">Dump PKCS7</item>
+    <item id="364">encoding</item>
+    <item id="365">bytes-of-machine-words-reversed-Hi</item>
+    <item id="366">bytes-of-machine-words-reversed-Low</item>
+    <item id="367">unexpected</item>
+    <item id="368">expected</item>
+    <item id="369">.NET</item>
+    <item id="370">FileMajorVersion</item>
+    <item id="371">FileMinorVersion</item>
+    <item id="372">FileVersionBuildNumber</item>
+    <item id="373">FileVersionRevisionNumber</item>
+    <item id="374">runtime-version</item>
+    <item id="375">...</item>
+    <item id="376">entry-point (token | address)</item>
+    <item id="377">flags</item>
+    <item id="378">execute</item>
+    <item id="379">streams</item>
+    <item id="380">exe-header > offset</item>
+    <item id="381">LanguageId</item>
+    <item id="382">CodePage</item>
+    <item id="383">IL-Only</item>
+    <item id="384">32-bit-required</item>
+    <item id="385">IL-Library</item>
+    <item id="386">strong-name-signed</item>
+    <item id="387">track-debug-data</item>
+    <item id="388">BSJB</item>
+    <item id="389">strings</item>
+    <item id="390">export</item>
+    <item id="391">file > ratio</item>
+    <item id="392">file > name</item>
+    <item id="393">executables</item>
+    <item id="394">32-bit-preferred</item>
+    <item id="395">native-entry-point</item>
+    <item id="396">typelibId</item>
+    <item id="397">stream</item>
+    <item id="398">tables</item>
+    <item id="399">table</item>
+    <item id="400">file (signature: %s, size: %i bytes)</item>
+    <item id="401">debug</item>
+    <item id="402">GUID</item>
+    <item id="403">%.4X-%2.X-%2.X-%1X%1X-%1X%1X%1X%1X%1X%1X</item>
+    <item id="404">age</item>
+    <item id="405">RSDS</item>
+    <item id="406">Nb09</item>
+    <item id="407">Nb10</item>
+    <item id="408">Nb11</item>
+    <item id="409">format</item>
+    <item id="410">gap</item>
+    <item id="411">overlay > location</item>
+    <item id="412">resources (size)</item>
+    <item id="413">strong-name-signature (size)</item>
+    <item id="414">rows</item>
+    <item id="415">export-address-table-jump (size)</item>
+    <item id="416">vtable-fixup-size</item>
+    <item id="417">drag-and-drop a file to analyse...</item>
+    <item id="418">original</item>
+    <item id="419">jump</item>
+    <item id="420">heap-sizes</item>
+    <item id="421">extra-data</item>
+    <item id="422">.NET items not yet supported</item>
+    <item id="423">module > name</item>
+    <item id="424">namespace</item>
+    <item id="425">header</item>
+    <item id="426">tooling</item>
+    <item id="427">namespace (system)</item>
+    <item id="428">namespace (custom)</item>
+    <item id="429">null</item>
+    <item id="430">class</item>
+    <item id="431">save changes ?</item>
+    <item id="432">#Strings</item>
+    <item id="433">#US</item>
+    <item id="434">pestudio internal key</item>
+    <item id="435">overwrite the file?</item>
+    <item id="436">anomaly</item>
+    <item id="437">file-header > location</item>
+    <item id="438">dos-stub > location</item>
+    <item id="439">pestudio</item>
+    <item id="440">read-only</item>
+    <item id="441">resources (RVA)</item>
+    <item id="442">BoundImports</item>
+    <item id="443">BoundImport</item>
+    <item id="444">BoundImportDate</item>
+    <item id="445">High-Entropy</item>
+    <item id="446">AppContainer</item>
+    <item id="447">Microsoft Linker</item>
+    <item id="448">version > location</item>
+    <item id="449">none</item>
+    <item id="450">debug > file</item>
+    <item id="451">dos-header > location</item>
+    <item id="452">stack-buffer-overrun-detection (GS)</item>
+    <item id="453">Control-flow Enforcement Technology (CETCOMPACT)</item>
+    <item id="454">hooking</item>
+    <item id="455">instance</item>
+    <item id="456">spoofing</item>
+    <item id="457">debug > location</item>
+    <item id="458">save to file</item>
+    <item id="459">Dump files (*.dump)|*.dump|All Files (*.*)|*.*||</item>
+    <item id="460">save to file</item>
+    <item id="461">*</item>
+    <item id="462">xml files (*.xml)|*.xml|All Files (*.*)|*.*||</item>
+    <item id="463">xml</item>
+    <item id="464">Cannot create Report file!</item>
+    <item id="465">p/Invoke</item>
+    <item id="466">API</item>
+    <item id="467">function (RVA)</item>
+    <item id="468">function-name (RVA)</item>
+    <item id="469">zero</item>
+    <item id="470">callback</item>
+    <item id="471">name (RVA)</item>
+    <item id="472">function-index</item>
+    <item id="473">tail</item>
+    <item id="474">WIN_CERTIFICATE</item>
+    <item id="475">issued-to</item>
+    <item id="476">more-info-url</item>
+    <item id="477">hash-algorithm</item>
+    <item id="478">program-name</item>
+    <item id="479">entropy</item>
+    <item id="480">sections</item>
+    <item id="481">name</item>
+    <item id="482">virtual-size</item>
+    <item id="483">virtual-address (begin)</item>
+    <item id="484">raw-size</item>
+    <item id="485">streams</item>
+    <item id="486">file-cave</item>
+    <item id="487">contains</item>
+    <item id="488">characteristics</item>
+    <item id="489">blacklisted</item>
+    <item id="490">obfuscated</item>
+    <item id="491">read</item>
+    <item id="492">write</item>
+    <item id="493">execute</item>
+    <item id="494">share</item>
+    <item id="495">unreadable</item>
+    <item id="496">virtual-address (end)</item>
+    <item id="497">section</item>
+    <item id="498">LordPE</item>
+    <item id="499">general</item>
+    <item id="500">load-config</item>
+    <item id="501">security</item>
+    <item id="502">PointerToRelocations</item>
+    <item id="503">PointerToLinenumbers</item>
+    <item id="504">NumberOfRelocations</item>
+    <item id="505">NumberOfLinenumbers</item>
+    <item id="506">characteristics</item>
+    <item id="507">sections</item>
+    <item id="508">ExecutableCode</item>
+    <item id="509">initialized-data</item>
+    <item id="510">uninitialized-data</item>
+    <item id="511">discardable</item>
+    <item id="512">cachable</item>
+    <item id="513">pageable</item>
+    <item id="514">valid-from</item>
+    <item id="515">valid-to</item>
+    <item id="516">purpose(s)</item>
+    <item id="517">Ensures software came from software publisher</item>
+    <item id="518">Protects software from alteration after publication</item>
+    <item id="519">stamp > signing</item>
+    <item id="520">indicators</item>
+    <item id="521">indicator</item>
+    <item id="522">The quota has been reached.</item>
+    <item id="523">stamps</item>
+    <item id="524">thumbprint</item>
+    <item id="525">hash-encryption-algorithm</item>
+    <item id="526">signature-algorithm</item>
+    <item id="527">revocation-status</item>
+    <item id="528">size-PKCS7</item>
+    <item id="529">size-certificate</item>
+    <item id="530">file-names</item>
+    <item id="531">signature-info</item>
+    <item id="532">This digital signature is OK.</item>
+    <item id="533">run from system swap</item>
+    <item id="534">hashes</item>
+    <item id="535">names</item>
+    <item id="536">Item not found at Virustotal</item>
+    <item id="537">sample</item>
+    <item id="538">imphash > md5</item>
+    <item id="539">overlay > sha256</item>
+    <item id="540">rich-header > md5</item>
+    <item id="541">original-file-name</item>
+    <item id="542">footprint</item>
+    <item id="543">cannot be executed</item>
+    <item id="544"></item>
+    <item id="545"></item>
+    <item id="546">The server understands the request but refuses to authorize it</item>
+    <item id="547">+++</item>
+    <item id="548">++</item>
+    <item id="549">+</item>
+    <item id="550">></item>
+    <item id="551">Type of footprints to use:</item>
+    <item id="552">Number of bytes to retrieve:</item>
+    <item id="553">Report format:</item>
+    <item id="554">Disable strings when file size exceeds:</item>
+    <item id="555">Key to use when proceeding to query:</item>
+    <item id="556">16 bytes</item>
+    <item id="557">32 bytes</item>
+    <item id="558">64 bytes</item>
+    <item id="559">256 KB</item>
+    <item id="560">378 KB</item>
+    <item id="561">512 KB</item>
+    <item id="562">1024 KB</item>
+    <item id="563">no-limit</item>
+    <item id="564">show groups color</item>
+    <item id="565">show Mitre Tactics</item>
+    <item id="566">show Relocations</item>
+    <item id="567">show Exceptions</item>
+    <item id="568">show Epoch stamps</item>
+    <item id="569">enable Virustotal query</item>
+    <item id="570">sample is read-only</item>
+    <item id="571">show sample in caption</item>
+    <item id="572">show strings</item>
+    <item id="573">dump certificate to file</item>
+    <item id="574">dump certificate tail to file</item>
+    <item id="575">dump debug stream to file</item>
+    <item id="576">www.google.com</item>
+    <item id="577">location (from-to)</item>
+    <item id="578">line</item>
+    <item id="579">copy line</item>
+    <item id="580">copy value</item>
+    <item id="581">copy detail</item>
+    <item id="582">copy property</item>
+    <item id="583">copy item</item>
+    <item id="584">copy indicator</item>
+    <item id="585">search Virustotal</item>
+    <item id="586">dump stream</item>
+    <item id="587">copy name</item>
+    <item id="588">copy description</item>
+    <item id="589">lookup in Browser</item>
+    <item id="590">save to file</item>
+    <item id="591">save certificate to file</item>
+    <item id="592">save certificate tail to file</item>
+    <item id="593">bytes-hex</item>
+    <item id="594">bytes-text</item>
+    <item id="595">open in pestudio</item>
+    <item id="596">delete</item>
+    <item id="597">+++</item>
+    <item id="598">++</item>
+    <item id="599">+</item>
+    <item id="600">copy import name</item>
+    <item id="601">copy namespace</item>
+    <item id="602">copy technique</item>
+    <item id="603">set entry-point</item>
+    <item id="604">copy query</item>
+    <item id="605">friendly name</item>
+    <item id="606">copy file name</item>
+    <item id="607">close file</item>
+    <item id="608">copy to clipboard</item>
+    <item id="609">initialized</item>
+    <item id="610">uninitialized</item>
+    <item id="611">cache</item>
+    <item id="612">page</item>
+    <item id="613">read</item>
+    <item id="614">attack.mitre.org</item>
+    <item id="615">first %i bytes (hex)</item>
+    <item id="616">first %i bytes (text)</item>
+    <item id="617"></item>
+    <item id="618"></item>
+    <item id="619"></item>
+    <item id="620">unknown</item>
+  </text>
+
+  <tooltips>
+    <item id="000">Your own Virustotal key that will be used for perform queries. &#xA;Once provided, the internal key of pestudio won't be used anymore.</item>
+  </tooltips>
+
+  <version>
+    <os>
+      <item name="VOS_DOS">MS-DOS</item>
+      <item name="VOS_NT">Windows NT</item>
+      <item name="VOS_WINDOWS16">Windows 16-bit</item>
+      <item name="VOS_WINDOWS32">Windows 32-bit</item>
+      <item name="VOS_OS216">OS/2 16-bit</item>
+      <item name="VOS_OS232">OS/2 32-bit</item>
+      <item name="VOS_PM16">PM-16-bit</item>
+      <item name="VOS_PM32">PM-32-bit</item>
+      <item name="VOS_UNKNOWN">Unknown</item>
+    </os>
+
+    <file>
+      <item name="VFT_APP">executable</item>
+      <item name="VFT_DLL">dynamic-link library</item>
+      <item name="VFT_DRV">device-driver</item>
+      <item name="VFT_FONT">font</item>
+      <item name="VFT_STATIC_LIB">static-link library</item>
+      <item name="VFT_VXD">virtual-device</item>
+      <item name="VFT_UNKNOWN">unknown</item>
+    </file>
+
+    <driver>
+      <item name="VFT2_DRV_COMM">Communication-driver</item>
+      <item name="VFT2_DRV_DISPLAY">Display-driver</item>
+      <item name="VFT2_DRV_INSTALLABLE">Installable-driver</item>
+      <item name="VFT2_DRV_KEYBOARD">Keyboard-driver</item>
+      <item name="VFT2_DRV_LANGUAGE">Language-driver</item>
+      <item name="VFT2_DRV_MOUSE">Mouse driver</item>
+      <item name="VFT2_DRV_NETWORK">Network-driver</item>
+      <item name="VFT2_DRV_PRINTER">Printer-driver</item>
+      <item name="VFT2_DRV_SOUND">Sound-driver</item>
+      <item name="VFT2_DRV_SYSTEM">System-driver</item>
+      <item name="VFT2_DRV_VERSIONED_PRINTER">Printer-driver</item>
+      <item name="VFT2_UNKNOWN">Unknown-Driver</item>
+    </driver>
+  </version>
+
+  <!-- locations of items found in the executable -->
+  <locations>
+    <item r="220" g="220" b="220">image</item>
+    <item r="220" g="220" b="220">dos-header</item>
+    <item r="220" g="220" b="220">dos-stub</item>
+    <item r="220" g="220" b="220">file-header</item>
+    <item r="000" g="000" b="000">rich-header</item>
+    <item r="030" g="144" b="225">library</item>
+    <item r="176" g="196" b="222">import</item>
+    <item r="218" g="112" b="214">export</item>
+    <item r="218" g="112" b="214">resource</item>
+    <item r="244" g="164" b="096">manifest</item>
+    <item r="240" g="230" b="140">debug</item>
+    <item r="255" g="228" b="196">version</item>
+    <item r="255" g="228" b="196">section</item>
+    <item r="144" g="238" b="144">certificate</item>
+    <item r="046" g="139" b="087">overlay</item>
+    <item r="000" g="000" b="000">dot-net</item>
+    <item r="000" g="000" b="000">any</item>
+    <item r="000" g="000" b="000">unknown</item>
+  </locations>
+
+  <footprints>
+    <item>md5</item>
+    <item>sha1</item>
+    <item>sha256</item>
+    <item>unknown</item>
+  </footprints>
+
+  <!-- relocations type friendly names -->
+  <relocations>
+    <item>absolute</item>
+    <item>high</item>
+    <item>low</item>
+    <item>high-low</item>
+    <item>high-adjust</item>
+    <item>mips-jump-addr</item>
+    <item>ia64</item>
+    <item>dir64</item>
+    <item>unknown</item>
+  </relocations>
+
+  <jmps>
+    <jmp>double-click > jump</jmp>
+    <jmp>double-click > url</jmp>
+    <jmp>double-click > save > file</jmp>
+    <jmp>unknown</jmp>
+  </jmps>
+
+  <!-- Certificate revision friendly names -->
+  <cert_revisions>
+    <item>WIN_CERT_REVISION_1_0</item>
+    <item>WIN_CERT_REVISION_2_0</item>
+    <item>unknown</item>
+  </cert_revisions>
+
+  <!-- Hash type friendly names -->
+  <hashes>
+    <item>md5</item>
+    <item>md5RSA</item>
+    <item>sha1</item>
+    <item>sha1RSA</item>
+    <item>sha256</item>
+    <item>sha384</item>
+    <item>sha512</item>
+    <item>rsa</item>
+    <item>sha256RSA</item>
+    <item>sha384RSA</item>
+    <item>sha512RSA</item>
+    <item>unknown</item>
+  </hashes>
+
+  <!-- ItemTypes friendly names -->
+  <ItemTypes>
+    <item>image</item>
+    <item>footprint</item>
+    <item>group</item>
+    <item>indicator</item>
+    <item>mitre</item>
+    <item>score</item>
+    <item>dos-stub</item>
+    <item>dos-header</item>
+    <item>rich-header</item>
+    <item>file-header</item>
+    <item>optional-header</item>
+    <item>directories</item>
+    <item>sections</item>
+    <item>libraries</item>
+    <item>imports</item>
+    <item>exports</item>
+    <item>exceptions</item>
+    <item>certificate</item>
+    <item>relocations</item>
+    <item>thread-local-storage</item>
+    <item>dotnet</item>
+    <item>resources</item>
+    <item>version</item>
+    <item>debug</item>
+    <item>strings</item>
+    <item>manifest</item>
+    <item>overlay</item>
+  </ItemTypes>
+
+  <!-- Certificate Items friendly names -->
+  <cert_items>
+    <item>trust-information</item>
+    <item>hash-algorithm</item>
+    <item>hash-encryption-algorithm</item>
+    <item>signature-algorithm</item>
+    <item>thumbprint</item>
+    <item>program-name</item>
+    <item>serial-number</item>
+    <item>display</item>
+    <item>email</item>
+    <item>dns</item>
+    <item>issued-to</item>
+    <item>issued-by</item>
+    <item>signing-time</item>
+    <item>valid-from</item>
+    <item>valid-to</item>
+    <item>info-url</item>
+    <item>info-file</item>
+    <item>more-info-url</item>
+    <item>more-info-file</item>
+    <item>unknown</item>
+  </cert_items>
+
+  <cert_types>
+    <item>WIN_CERT_TYPE_X509</item>
+    <item>WIN_CERT_TYPE_PKCS_SIGNED_DATA</item>
+    <item>WIN_CERT_TYPE_RESERVED_1</item>
+    <item>WIN_CERT_TYPE_TS_STACK_SIGNED</item>
+    <item>unknown</item>
+  </cert_types>
+
+  <groups enable="1">
+    <!-- group of level="3" are NOT show in color! -->
+    <item id="00" r="255" g="128" b="000" level="3" enable="1">timer</item>
+    <item id="01" r="255" g="128" b="000" level="1" enable="1">registry</item>
+    <item id="02" r="247" g="071" b="071" level="1" enable="1">execution</item>
+    <item id="03" r="255" g="100" b="177" level="1" enable="1">network</item>
+    <item id="04" r="132" g="189" b="137" level="1" enable="1">crypto</item>
+    <item id="05" r="045" g="155" b="255" level="1" enable="1">memory</item>
+    <item id="06" r="179" g="223" b="255" level="1" enable="1">file</item>
+    <item id="07" r="127" g="255" b="000" level="3" enable="1">synchro</item>
+    <item id="08" r="215" g="155" b="125" level="1" enable="1">desktop</item>
+    <item id="09" r="111" g="200" b="006" level="1" enable="1">services</item>
+    <item id="10" r="175" g="122" b="197" level="1" enable="1">obfuscation</item>
+    <item id="11" r="185" g="130" b="100" level="1" enable="1">resource</item>
+    <item id="12" r="176" g="255" b="255" level="3" enable="1">windowing</item>
+    <item id="13" r="250" g="215" b="160" level="1" enable="1">compression</item>
+    <item id="14" r="085" g="110" b="200" level="1" enable="1">hooking</item>
+    <item id="15" r="128" g="255" b="128" level="1" enable="1">sharing</item>
+    <item id="16" r="170" g="170" b="170" level="2" enable="1">diagnostic</item>
+    <item id="17" r="085" g="160" b="010" level="1" enable="1">administration</item>
+    <item id="18" r="185" g="010" b="210" level="3" enable="1">exception</item>
+    <item id="19" r="239" g="228" b="176" level="1" enable="1">reconnaissance</item>
+    <item id="20" r="036" g="215" b="130" level="3" enable="1">console</item>
+    <item id="21" r="255" g="198" b="255" level="1" enable="1">dynamic-library</item>
+    <item id="22" r="155" g="198" b="255" level="2" enable="1">io</item>
+    <item id="23" r="132" g="114" b="114" level="3" enable="1">Common-Object-Model (COM)</item>
+    <item id="24" r="162" g="162" b="162" level="1" enable="1">desktop</item>
+    <item id="25" r="255" g="162" b="162" level="1" enable="1">shell</item>
+    <item id="26" r="183" g="232" b="190" level="1" enable="1">setup</item>
+    <item id="27" r="055" g="159" b="074" level="1" enable="1">power</item>
+    <item id="28" r="125" g="159" b="174" level="3" enable="1"></item>
+    <item id="29" r="064" g="187" b="208" level="1" enable="1">directory-service</item>
+    <item id="30" r="255" g="239" b="043" level="1" enable="1">security</item>
+    <item id="31" r="204" g="238" b="255" level="3" enable="1"></item>
+    <item id="32" r="232" g="255" b="206" level="2" enable="1">device</item>
+  </groups>
+
+  <!-- Directories friendly names -->
+  <dirs>
+    <item>export</item>
+    <item>import</item>
+    <item>resource</item>
+    <item>exception</item>
+    <item>security</item>
+    <item>relocation</item>
+    <item>debug</item>
+    <item>architecture</item>
+    <item>global-pointer</item>
+    <item>thread-local-storage</item>
+    <item>load-configuration</item>
+    <item>bound-import</item>
+    <item>import-address</item>
+    <item>delay-loaded</item>
+    <item>.NET</item>
+    <item>reserved</item>
+  </dirs>
+
+  <!--
+      attributes:
+      id=""       is the identificator of the resource type (do not modify this value)
+      severity="" is the severity level see <severity> below
+	    Severity_High			    = 1,
+	    Severity_Medium			  = 2,
+	    Severity_Low			    = 3,
+	    Severity_Information  = 4,
+    !-->
+  <resources>
+    <item id="00" severity="4" builtin="1" file="0" indicator="0">manifest</item>
+    <item id="01" severity="4" builtin="1" file="0" indicator="0">cursor</item>
+    <item id="02" severity="4" builtin="1" file="0" indicator="0">bitmap</item>
+    <item id="03" severity="4" builtin="1" file="0" indicator="0">icon</item>
+    <item id="04" severity="4" builtin="1" file="0" indicator="0">menu</item>
+    <item id="05" severity="4" builtin="1" file="0" indicator="0">dialog</item>
+    <item id="06" severity="4" builtin="1" file="0" indicator="0">dialog-data</item>
+    <item id="07" severity="4" builtin="1" file="0" indicator="0">string-table</item>
+    <item id="08" severity="4" builtin="1" file="0" indicator="0">message-table</item>
+    <item id="09" severity="4" builtin="1" file="0" indicator="0">font-directory</item>
+    <item id="10" severity="4" builtin="1" file="0" indicator="0">font</item>
+    <item id="11" severity="4" builtin="1" file="0" indicator="0">accelerator</item>
+    <item id="12" severity="4" builtin="1" file="0" indicator="1">rcdata</item>
+    <item id="13" severity="4" builtin="1" file="0" indicator="0">cursor-group</item>
+    <item id="14" severity="4" builtin="1" file="0" indicator="0">icon-group</item>
+    <item id="15" severity="4" builtin="1" file="0" indicator="0">version</item>
+    <item id="16" severity="4" builtin="1" file="0" indicator="0">dlgInclude</item>
+    <item id="17" severity="4" builtin="1" file="0" indicator="0">Plug-and-play</item>
+    <item id="18" severity="4" builtin="1" file="0" indicator="0">Vxd</item>
+    <item id="19" severity="4" builtin="1" file="0" indicator="0">Animated-cursor</item>
+    <item id="20" severity="4" builtin="1" file="0" indicator="0">Animated-icon</item>
+    <item id="21" severity="4" builtin="1" file="0" indicator="1">HTML</item>
+    <item id="22" severity="4" builtin="1" file="0" indicator="0">MUI</item>
+    <item id="23" severity="4" builtin="1" file="0" indicator="0">icons</item>
+    <item id="24" severity="4" builtin="0" file="0" indicator="0">custom</item>
+    <item id="25" severity="1" builtin="0" file="1" indicator="1">executable</item>
+    <item id="27" severity="4" builtin="0" file="0" indicator="0">Riff</item>
+    <item id="28" severity="4" builtin="0" file="0" indicator="0">GIF</item>
+    <item id="29" severity="4" builtin="0" file="0" indicator="0">PNG</item>
+    <item id="30" severity="4" builtin="0" file="0" indicator="0">BMP</item>
+    <item id="42" severity="2" builtin="0" file="1" indicator="0">Stylesheet-XML</item>
+    <item id="44" severity="3" builtin="0" file="1" indicator="1">XML-Event-Log</item>
+    <item id="48" severity="4" builtin="0" file="0" indicator="0">Nb10</item>
+    <item id="55" severity="4" builtin="0" file="0" indicator="0">Debugger</item>
+    <item id="56" severity="4" builtin="0" file="0" indicator="0">FPO-debug</item>
+    <item id="57" severity="4" builtin="0" file="0" indicator="0">Text</item>
+    <item id="58" severity="4" builtin="0" file="0" indicator="0">JPEG</item>
+    <item id="61" severity="2" builtin="0" file="1" indicator="1">Python</item>
+    <item id="62" severity="2" builtin="0" file="1" indicator="1">Python-script</item>
+    <item id="64" severity="4" builtin="0" file="0" indicator="1">XML</item>
+    <item id="68" severity="2" builtin="0" file="0" indicator="1">unknown</item>
+    <item id="69" severity="4" builtin="0" file="0" indicator="0">none</item>
+    <item id="70" severity="4" builtin="0" file="0" indicator="0">empty</item>
+    <item id="71" severity="4" builtin="0" file="0" indicator="0">any</item>
+  </resources>
+
+  <!-- Subsystems id and friendly Names -->
+  <subsystems>
+    <item id="00">Native</item>
+    <item id="01">GUI</item>
+    <item id="02">console</item>
+    <item id="03">Windows-boot-application</item>
+    <item id="04">Windows-CE</item>
+    <item id="05">os2</item>
+    <item id="06">posix</item>
+    <item id="07">win9x-driver</item>
+    <item id="08">EFI-application</item>
+    <item id="09">EFI-driver-boot-service</item>
+    <item id="10">EFI-driver-run-time-service</item>
+    <item id="11">EFI-ROM</item>
+    <item id="12">Xbox</item>
+    <item id="13">unknown</item>
+  </subsystems>
+
+  <!-- Target Machines Friendly Names -->
+  <machines>
+    <item id="00">Intel-386</item>
+    <item id="01">MipsR3000</item>
+    <item id="02">MipsR6000</item>
+    <item id="03">MipsR10000</item>
+    <item id="04">Mipsv2</item>
+    <item id="05">Alpha</item>
+    <item id="06">SH3</item>
+    <item id="07">SH3DSP</item>
+    <item id="08">SH3E</item>
+    <item id="09">SH4</item>
+    <item id="10">SH5</item>
+    <item id="11">ARM</item>
+    <item id="12">ARMv7</item>
+    <item id="13">ARM-Thumb</item>
+    <item id="14">ARM-Thumb-2-little-Indian</item>
+    <item id="15">AM33</item>
+    <item id="16">PowerPc</item>
+    <item id="17">PowerPcfp</item>
+    <item id="18">IA64</item>
+    <item id="19">Mips16</item>
+    <item id="20">Alpha64</item>
+    <item id="21">MipsFpu</item>
+    <item id="22">MipsFpu16</item>
+    <item id="23">Axp64</item>
+    <item id="24">TriCore</item>
+    <item id="25">CEF</item>
+    <item id="26">EBC</item>
+    <item id="27">Amd64</item>
+    <item id="28">M32R</item>
+    <item id="29">CEE</item>
+    <item id="30">unknown</item>
+  </machines>
+
+  <!-- Manifest execution levels -->
+  <executionlevels>
+    <item>asInvoker</item>
+    <item>highest</item>
+    <item>administrator</item>
+    <item>unknown</item>
+  </executionlevels>
+
+  <ops>
+    <item id="0">Windows 11</item>
+    <item id="1">Windows 10</item>
+    <item id="2">Windows Server 2022</item>
+    <item id="3">Windows Server 2019</item>
+    <item id="4">Windows Server 2016</item>
+    <item id="5">Windows 8.1</item>
+    <item id="6">Windows Server 2012 R2</item>
+    <item id="7">Windows 8</item>
+    <item id="8">Windows Server 2012</item>
+    <item id="9">Windows 7</item>
+    <item id="10">Windows Server 2008 R2</item>
+    <item id="11">Windows Server 2008</item>
+    <item id="12">Windows Vista</item>
+    <item id="13">Windows Server 2003 R2</item>
+    <item id="14">Windows Server 2003</item>
+    <item id="15">Windows XP 64-bit</item>
+    <item id="16">Windows XP</item>
+    <item id="17">Windows 2000</item>
+    <item id="18">Windows NT 4.0</item>
+  </ops>
+
+  <!-- debugger Types Friendly Names -->
+  <debuggers>
+    <item id="00">COFF</item>
+    <item id="01">Nb09</item>
+    <item id="02">Nb10</item>
+    <item id="03">Nb11</item>
+    <item id="04">RSDS</item>
+    <item id="05">FPO</item>
+    <item id="06">MISC</item>
+    <item id="07">exception</item>
+    <item id="08">fixu</item>
+    <item id="09">omapToSrc</item>
+    <item id="10">omapFromSrc</item>
+    <item id="11">Borland</item>
+    <item id="12">reserved10</item>
+    <item id="13">clsid</item>
+    <item id="14">PGO</item>
+    <item id="15">vcFeature</item>
+    <item id="16">iltcg</item>
+    <item id="17">mpx</item>
+    <item id="18">REPRO</item>
+    <item id="19">Extended Dll Characteritics</item>
+    <item id="20">embedded portable PDB</item>
+    <item id="--">unknown</item>
+  </debuggers>
+
+  <!-- Character Sets Friendly Names -->
+  <characters>
+    <item>7-bit ASCII</item>
+    <item>Japan (Shift – JIS X-0208)</item>
+    <item>Korea (Shift – KSC 5601)</item>
+    <item>Taiwan (Big5)</item>
+    <item>Unicode</item>
+    <item>Latin-2 (Eastern European)</item>
+    <item>Cyrillic</item>
+    <item>Multilingual</item>
+    <item>Greek</item>
+    <item>Turkish</item>
+    <item>Hebrew</item>
+    <item>Arabic</item>
+  </characters>
+
+  <severities>
+    <item id="1">high</item>
+    <item id="2">medium</item>
+    <item id="3">low</item>
+    <item id="4">info</item>
+    <item id="5">unknown</item>
+    <item id="6">none</item>
+  </severities>
+
+  <dependencies>
+    <item>Implicit</item>
+    <item>Delay-load</item>
+    <item>Forward</item>
+    <item>p/Invoke</item>
+    <item>Unknown</item>
+  </dependencies>
+
+  <manifest>
+    <item>Administrator</item>
+    <item>Highest</item>
+    <item>Invoker</item>
+  </manifest>
+
+  <magics>
+    <item>PE</item>
+    <item>PE+</item>
+  </magics>
+
+  <hints color="1">
+    <item id="01" indicate="1">rich-header</item>
+    <item id="02" indicate="1">privilege</item>
+    <item id="03" indicate="1">registry</item>
+    <item id="04" indicate="0"></item>
+    <item id="05" indicate="0"></item>
+    <item id="06" indicate="1">user-agent</item>
+    <item id="07" indicate="1">rtti</item>
+    <item id="08" indicate="0"></item>
+    <item id="09" indicate="0">debug</item>
+    <item id="10" indicate="0"></item>
+    <item id="11" indicate="0"></item>
+    <item id="12" indicate="0"></item>
+    <item id="13" indicate="1">utility</item>
+    <item id="14" indicate="1">mutex</item>
+    <item id="15" indicate="1">query</item>
+    <item id="16" indicate="1">sid</item>
+    <item id="17" indicate="1">file</item>
+    <item id="18" indicate="1">regex</item>
+    <item id="19" indicate="1">url-pattern</item>
+    <item id="20" indicate="0"></item>
+    <item id="21" indicate="1">security</item>
+    <item id="22" indicate="1">size</item>
+    <item id="23" indicate="0"></item>
+    <item id="24" indicate="1">base64</item>
+    <item id="25" indicate="0"></item>
+    <item id="26" indicate="0">import</item>
+    <item id="27" indicate="0">export</item>
+    <item id="28" indicate="0">format-string</item>
+    <item id="29" indicate="0">dotnet-namespace</item>
+    <item id="30" indicate="1">library</item>
+    <item id="-1">unknown</item>
+  </hints>
+
+</xml>

@@ -1,0 +1,133 @@
+<!--
+This file is part of the pestudio solution (www.winitor.com).
+Any usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that:
+- the format of this file can change in future version of pestudio
+- this file can be modified when running pestudio
+-->
+<xml version="1.0" encoding="utf-8">
+  
+  <nsp>
+    <!-- System namespaces -->
+    <nsp_system enable="1">
+      <item flag="0" gp="--" ti="----">Microsoft</item>
+      <item flag="1" gp="02" ti="1053">Microsoft.Win32.TaskScheduler</item>
+      <item flag="1" gp="03" ti="----">Microsoft.Exchange.WebServices</item>
+      <item flag="0" gp="--" ti="----">System</item>
+      <item flag="0" gp="--" ti="----">System.Collection</item>
+      <item flag="1" gp="30" ti="----">System.DirectoryServices</item>
+      <item flag="0" gp="16" ti="----">System.Diagnostics</item>
+      <item flag="1" gp="--" ti="1570">System.IO.Ports</item>
+      <item flag="1" gp="--" ti="1570">System.IO.Pipes</item>
+      <item flag="1" gp="13" ti="1140">System.IO.Compression</item>
+      <item flag="1" gp="02" ti="----">System.Management.Automation.PowerShell</item>
+      <item flag="1" gp="02" ti="----">System.Management.Automation.Runspaces</item>
+      <item flag="1" gp="03" ti="1011">System.Net</item>
+      <item flag="1" gp="03" ti="1011">System.Net.Http</item>
+      <item flag="0" gp="--" ti="----">System.Runtime</item>
+      <item flag="1" gp="--" ti="----">System.Runtime.Remoting</item>
+      <item flag="0" gp="11" ti="----">System.Resources</item>
+      <item flag="0" gp="02" ti="----">System.Reflection.Emit</item>
+      <item flag="0" gp="--" ti="----">System.Reflection</item>
+      <item flag="1" gp="09" ti="1543">System.ServiceProcess</item>
+      <item flag="1" gp="30" ti="----">System.Security</item>
+      <item flag="1" gp="04" ti="1001">System.Security.Cryptography</item>
+      <item flag="1" gp="10" ti="1001">System.Text.Encoding</item>
+      <item flag="0" gp="02" ti="----">System.Threading</item>
+      <item flag="0" gp="03" ti="1011">System.Web</item>
+    </nsp_system>
+
+    <!-- Custom namespaces -->
+    <nsp_custom enable="1">
+      <item flag="1" gp="30" ti="----">AceEnumerator</item>
+      <item flag="0" gp="--" ti="----">AForge</item>
+      <item flag="1" gp="06" ti="----">Alphaleonis</item>
+      <item flag="1" gp="--" ti="----">AntiAC</item>
+      <item flag="1" gp="--" ti="----">Antis</item>
+      <item flag="1" gp="--" ti="----">cam.DirectX</item>
+      <item flag="1" gp="13" ti="----">ComponentAce.Compression</item>
+      <item flag="1" gp="--" ti="----">Cleaver</item>
+      <item flag="1" gp="--" ti="----">ChatProto</item>
+      <item flag="1" gp="10" ti="1001">Confuser</item>
+      <item flag="1" gp="10" ti="1001" sig="501">Costura</item>
+      <item flag="0" gp="16" ti="----">ChangeDetector</item>
+      <item flag="1" gp="04" ti="----">CryptUtil</item>
+      <item flag="1" gp="03" ti="----">Discord.Webhook</item>
+      <item flag="1" gp="--" ti="----">DnsDig</item>
+      <item flag="1" gp="--" ti="----">dnlib.DotNet.Emit</item>
+      <item flag="1" gp="--" ti="----">dnlib.DotNet.Writer</item>
+      <item flag="1" gp="--" ti="----">dnlib.PE</item>
+      <item flag="1" gp="--" ti="----">Dropbox</item>
+      <item flag="1" gp="--" ti="----">FxResources.System.Security</item>
+      <item flag="1" gp="--" ti="----">Hacker.KeySpy</item>
+      <item flag="1" gp="10" ti="----">HarmonyLib</item>
+      <item flag="1" gp="03" ti="----">Heijden.DNS</item>
+      <item flag="1" gp="30" ti="----">EasyNetQ.Management.Client</item>
+      <item flag="1" gp="--" ti="----">ExcelDna</item>
+      <item flag="1" gp="14" ti="----">GlobalLowLevelHooks</item>
+      <item flag="1" gp="03" ti="----">IpInfo</item>
+      <item flag="1" gp="14" ti="----">InjectionLibrary</item>
+      <item flag="1" gp="13" ti="----">ICSharpCode.SharpZipLib</item>
+      <item flag="1" gp="--" ti="----">Ionic</item>
+      <item flag="1" gp="--" ti="----">IronPython</item>
+      <item flag="1" gp="02" ti="----">IWshRuntimeLibrary</item>
+      <item flag="1" gp="--" ti="----">JLibrary</item>
+      <item flag="1" gp="--" ti="----">ik.PowerShell</item>
+      <item flag="1" gp="--" ti="----">KoiVM</item>
+      <item flag="1" gp="--" ti="----">Kalignite</item>
+      <item flag="1" gp="30" ti="----">Kerberos</item>
+      <item flag="1" gp="14" ti="----">KeyLogger</item>
+      <item flag="1" gp="--" ti="----">KXCashDispenserLib</item>
+      <item flag="1" gp="03" ti="----">Leaf.xNet</item>
+      <item flag="1" gp="--" ti="----">Loamen</item>
+      <item flag="1" gp="--" ti="----">Loki</item>
+      <item flag="1" gp="04" ti="----">LoGiC.NET</item>
+      <item flag="1" gp="--" ti="----">log4net</item>
+      <item flag="1" gp="13" ti="----">LibZ</item>
+      <item flag="1" gp="13" ti="----">LZ4</item>
+      <item flag="1" gp="--" ti="----">Luci4</item>
+      <item flag="1" gp="--" ti="----">mimikatzWrapper</item>
+      <item flag="1" gp="13" ti="----">MessagePackLib</item>
+      <item flag="1" gp="14" ti="----">MouseKeyboardLibrary</item>
+      <item flag="1" gp="02" ti="----">Mono.Cecil.PE</item>
+      <item flag="1" gp="04" ti="----">Mono.Security.Cryptography</item>
+      <item flag="1" gp="--" ti="----">netz</item>
+      <item flag="1" gp="14" ti="----">NHotkey</item>
+      <item flag="1" gp="03" ti="----">NetworkAssassin</item>
+      <item flag="1" gp="10" ti="1001">NETGuard</item>
+      <item flag="1" gp="10" ti="1001">NineRays.Obfuscator</item>
+      <item flag="1" gp="--" ti="----">Povlsomware</item>
+      <item flag="1" gp="03" ti="----">RabbitMQ.Client</item>
+      <item flag="1" gp="--" ti="----">RathodFinalProject</item>
+      <item flag="1" gp="--" ti="----">RemoteClient</item>
+      <item flag="1" gp="--" ti="----">Renci</item>
+      <item flag="1" gp="--" ti="----">Ryuk</item>
+      <item flag="1" gp="--" ti="----">Run_A_exe</item>
+      <item flag="1" gp="--" ti="----">Rubeus</item>
+      <item flag="1" gp="--" ti="----">SadComputer</item>
+      <item flag="1" gp="10" ti="1001">SecureTeam</item>
+      <item flag="1" gp="03" ti="----">SharpPcap</item>
+      <item flag="1" gp="30" ti="----">Serilog</item>
+      <item flag="1" gp="13" ti="----">SevenZip</item>
+      <item flag="1" gp="--" ti="----">ScanEngine</item>
+      <item flag="1" gp="10" ti="1001">SharpCompress</item>
+      <item flag="1" gp="--" ti="----">Shell32</item>
+      <item flag="1" gp="--" ti="----">Stealer</item>
+      <item flag="1" gp="--" ti="----">Stealerium</item>
+      <item flag="1" gp="10" ti="1001" sig="507">SmartAssembly</item>
+      <item flag="1" gp="30" ti="----">Serilog</item>
+      <item flag="1" gp="19" ti="1001">SharpHound</item>
+      <item flag="1" gp="19" ti="1001">SharpHoundCommonLib</item>
+      <item flag="1" gp="--" ti="----">StackCrawlMark</item>
+      <item flag="1" gp="--" ti="----">svchost</item>
+      <item flag="1" gp="02" ti="1053">TaskScheduler</item>
+      <item flag="1" gp="--" ti="----">TinyZBot</item>
+      <item flag="1" gp="03" ti="----">Trinet.Networking</item>
+      <item flag="1" gp="--" ti="----">VisualSearch.Native</item>
+      <item flag="1" gp="--" ti="----">Umbral</item>
+      <item flag="1" gp="--" ti="----">wanna_cry</item>
+      <item flag="1" gp="--" ti="----">YanoAttribute</item>
+    </nsp_custom>
+  </nsp>
+</xml>
