@@ -34,6 +34,12 @@ This repository also contains **analyzed or unpacked samples** for educational a
   - [Inside Different Generations of RATs](https://iss4cf0ng.github.io/InsideDifferentGenerationsOfRATs/)
     - [The njRAT Family](https://iss4cf0ng.github.io/TheNjRatFamily/)
     - [The Gh0st Family](https://iss4cf0ng.github.io/TheGh0stFamily/)
+  - [Inside Different Generations of Ransomware](https://iss4cf0ng.github.io/InsideDifferentGenerationsOfRansomware/)
+    - [CryptoLocker](https://iss4cf0ng.github.io/2026/04/01/2026-4-1-CryptoLocker/)
+    - [Jigsaw](https://iss4cf0ng.github.io/2026/04/02/2026-4-2-Jigsaw/)
+    - WannaCry
+      - [Encryption](https://iss4cf0ng.github.io/2026/04/03/2026-4-3-WannaCry/)
+      - [Worming and TOR](https://iss4cf0ng.github.io/2026/04/05/2026-4-5-WannaCryProtocol/)
 
 <p align="center">
     <img src="https://iss4cf0ng.github.io/images/meme/rio_pc.jpg" width=300/>
