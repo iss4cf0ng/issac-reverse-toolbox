@@ -25,6 +25,7 @@ Some tools are **NOT** my work. Please use them only in your personal virtual ma
 This repository also contains **analyzed or unpacked samples** for educational and research purposes.  
 - Do **not run these samples on your main system**. Use a properly isolated virtual machine.  
 - Each sample may include notes, scripts, or extracted binaries to study behavior safely.
+- To prevent unintentional execution, all samples are distributed as password-protected ZIP archives (`.zip`) with the password `infected`.
 
 ---
 
