@@ -1,5 +1,5 @@
 //Dump payload with known address + size
-//Url: https://github.com/iss4cf0ng/issac-reverse-toolbox/Ghidra/DumpPayload.java
+//Url: https://github.com/iss4cf0ng/issac-reverse-toolbox/blob/main/Ghidra/DumpPayload.java
 //@author iss4cf0ng/ISSAC
 //@category Memory
 //@keybinding
