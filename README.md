@@ -37,9 +37,15 @@ This repository also contains **analyzed or unpacked samples** for educational a
   - [Inside Different Generations of Ransomware](https://iss4cf0ng.github.io/InsideDifferentGenerationsOfRansomware/)
     - [CryptoLocker](https://iss4cf0ng.github.io/2026/04/01/2026-4-1-CryptoLocker/)
     - [Jigsaw](https://iss4cf0ng.github.io/2026/04/02/2026-4-2-Jigsaw/)
+    - GlobeImposter
+    - [2018](https://iss4cf0ng.github.io/2026/04/06/2026-4-6-GlobeImposter/)
+    - [2021](https://iss4cf0ng.github.io/2026/04/07/2026-4-7-GlobeImposter2021/)
     - WannaCry
       - [Encryption](https://iss4cf0ng.github.io/2026/04/03/2026-4-3-WannaCry/)
       - [Worming and TOR](https://iss4cf0ng.github.io/2026/04/05/2026-4-5-WannaCryProtocol/)
+    - Petya/NotPetya
+      - [MBR and Bootloader](https://iss4cf0ng.github.io/2026/04/08/2026-4-8-MbrAndBootLoader/)
+      - [Petya](https://iss4cf0ng.github.io/2026/04/12/2026-4-12-Petya/)
 
 <p align="center">
     <img src="https://iss4cf0ng.github.io/images/meme/rio_pc.jpg" width=300/>
