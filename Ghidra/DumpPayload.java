@@ -54,7 +54,7 @@ public class DumpPayload extends GhidraScript {
             println("[*] Dump range: " + startAddr + " - " + endAddr);
         }
 
-	//Read memory
+	    //Read memory
         byte[] payload;
 
         try {
