@@ -46,6 +46,7 @@ This repository also contains **analyzed or unpacked samples** for educational a
     - Petya/NotPetya
       - [MBR and Bootloader](https://iss4cf0ng.github.io/2026/04/08/2026-4-8-MbrAndBootLoader/)
       - [Petya](https://iss4cf0ng.github.io/2026/04/12/2026-4-12-Petya/)
+      - [NotPetya](https://iss4cf0ng.github.io/2026/04/13/2026-4-13-NotPetya/)
 
 <p align="center">
     <img src="https://iss4cf0ng.github.io/images/meme/rio_pc.jpg" width=300/>
